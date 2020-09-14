@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <title>{% block title %}Frances Willoughby{% endblock %}</title>
+</head>
+
+<body>
+    <div id="navbar">
+        {% block navbar %}
+        <ul>
+            <li><a href="/">Home</a></li>
+            {% for art_type in art_types %}
+                <li><a href="/">{{ art_type.art_type }}</a></li>
+            {% endfor %}
+            <li><a href="/cv/">CV</a></li>
+            <li><a href="/contact/">Contact</a></li>
+        </ul>
+        {% endblock %}
+    </div>
+
+    <div id="content">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>
