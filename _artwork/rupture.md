@@ -5,7 +5,7 @@ image: rupture.jpg
 type: Installation
 ---
 
-# {{ page.name }}
+# {{ page.title }}
 
 Installation  
 Mixed media  

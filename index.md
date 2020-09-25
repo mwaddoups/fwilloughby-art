@@ -4,7 +4,7 @@ title: "Home"
 mainimage: the-failure-of-pretence.jpg
 ---
 
-![The Failure Of Pretence]({{ site.url }}/assets/images/{{ page.mainimage }}){:class="art-image"}
+![The Failure Of Pretence]({{ site.url }}/assets/images/{{ page.mainimage }}){:class="art-image front-image"}
 
 ## Frances Willoughby
 

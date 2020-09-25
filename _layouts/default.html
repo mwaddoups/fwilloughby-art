@@ -8,13 +8,13 @@
   </head>
   <body>
     {% include header.html %}
-    {% if page.headerimage %}
-        <div id="pageheader" style="background-image: url('assets/images/{{ page.headerimage }}')">
-            <h2>{{ page.title }}</h2>
-        </div>
-    {% endif %}
     <div id="content">
-    {{ content }}
+        {% if page.headerimage %}
+            <div id="pageheader" style="background-image: url('assets/images/{{ page.headerimage }}')">
+                <h2>{{ page.title }}</h2>
+            </div>
+        {% endif %}
+        {{ content }}
     </div>
     <!-- These script tags are used to stop a CSS bug in chrome --><script> </script>
   </body>

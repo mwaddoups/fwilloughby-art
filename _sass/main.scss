@@ -14,7 +14,12 @@ body {
     font-weight: 400;
     margin: 0 auto;
     width: 100%;
-    max-width: 1000px;
+}
+
+#content {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
 }
 
 a, a:visited, a:hover, a:active {
@@ -24,7 +29,7 @@ a, a:visited, a:hover, a:active {
 
 #title {
     font-family: $titleFont;
-    font-size: 57px;
+    font-size: 7.5vh;
     font-weight: 700;
     letter-spacing: .04em;
     text-align: center;
@@ -59,21 +64,15 @@ nav a:hover, nav a:active {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2em;
+    margin-bottom: 3em;
 }
 
 #pageheader h2 {
     font-family: $pageHeaderFont;
-    font-size: 3em;
+    font-size: 6.5vmin;
     color: white;
     text-transform: uppercase;
     text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
-}
-
-#content {
-    display: block;
-    margin: 0 auto;
-    width: 95%;
 }
 
 .art-image {
@@ -84,13 +83,18 @@ nav a:hover, nav a:active {
     padding: 1px;
 }
 
+.front-image {
+    width: 75%;
+}
+
 #art-list {
+    border-top: 1px solid black;
     display: flex;
     flex-wrap: wrap;
 }
 
 figure.art-preview {
-    height: 40vh;
+    height: 30vmin;
     flex-grow: 1;
     position: relative;
 }
@@ -105,7 +109,7 @@ figure.art-preview img {
 figure.art-preview figcaption {
     font-family: $pageHeaderFont;
     font-weight: 400;
-    font-size: 2em;
+    font-size: 4vmin;
     letter-spacing: .17em;
     line-height: 1.3em;
     text-transform: uppercase;

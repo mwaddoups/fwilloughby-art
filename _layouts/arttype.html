@@ -2,11 +2,14 @@
 layout: default
 ---
 
+
 <div id="art-list">
 {% for artwork in site.artwork %}
     {% if artwork.type == page.title %}
         <figure class="art-preview">
+            <a href="{{ artwork.url }}">
             <img src="{{ site.url }}/assets/images/{{ artwork.image }}">
+            </a>
             <figcaption>{{ artwork.title }}</figcaption>
         </figure>
     {% endif %}
