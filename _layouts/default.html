@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ site.title }} - {{ page.title }}</title>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+  </head>
+  <body>
+    {% include header.html %}
+    {% if page.headerimage %}
+        <div id="pageheader" style="background-image: url('assets/images/{{ page.headerimage }}')">
+            <h2>{{ page.title }}</h2>
+        </div>
+    {% endif %}
+    <div id="content">
+    {{ content }}
+    </div>
+    <!-- These script tags are used to stop a CSS bug in chrome --><script> </script>
+  </body>
+</html>

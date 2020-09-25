@@ -1,0 +1,12 @@
+- name: Home
+  link: /
+- name: CV
+  link: /cv.html
+- name: Installation
+  link: /installation.html
+- name: Sculpture
+  link: /sculpture.html
+- name: Found Photography
+  link: /photography.html
+- name: Contact
+  link: /contact.html

@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div id="art-list">
+{% for artwork in site.artwork %}
+    {% if artwork.type == page.title %}
+        <figure class="art-preview">
+            <img src="{{ site.url }}/assets/images/{{ artwork.image }}">
+            <figcaption>{{ artwork.title }}</figcaption>
+        </figure>
+    {% endif %}
+{% endfor %}
+</div>
+
+{{ content }}
