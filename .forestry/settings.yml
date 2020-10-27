@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: _data/navigation.yml
+  path: _data/navigation.yaml
   label: Navigation
   read_only: false
 - type: jekyll-pages
