@@ -60,6 +60,12 @@ fields:
     required: false
   label: Dimensions
   description: Dimensions of piece (can be blank)
+- name: exhibition
+  type: text
+  config:
+    required: false
+  label: Exhibition
+  description: Relevant exhibition for the work (will appear above description).
 pages:
 - _artwork/the-elephant-in-the-room.md
 - _artwork/undone.md
