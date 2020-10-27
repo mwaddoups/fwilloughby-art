@@ -12,13 +12,13 @@ fields:
   hidden: true
 - type: text
   name: title
-  label: title
+  label: Title
+  description: The name of the work.
 - type: file
   name: image
-  label: image
+  label: Main Image
 - type: select
   name: type
-  label: type
   config:
     source:
       type: custom
@@ -26,6 +26,33 @@ fields:
     - Installation
     - Sculpture
     - Found Photography
+  label: Type of Work
+- name: media_type
+  type: text
+  config:
+    required: false
+  label: Media Type
+  description: Media type e.g. Mixed Media, Fabric
+- name: year
+  type: number
+  label: Year
+  description: Year of artwork.
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+  description: Main description
 pages:
 - _artwork/the-elephant-in-the-room.md
 - _artwork/undone.md
