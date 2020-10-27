@@ -1,11 +1,9 @@
-@import url(http://fonts.googleapis.com/css?family=Oswald:700|Quattrocento+Sans:400|Quattrocento);
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans);
 
 $backgroundColor: white;
 $bodyColor: black;
 $bodyFont: "Quattrocento Sans", sans-serif;
-$titleFont: "Oswald", serif;
 $navFont: "Quattrocento Sans", sans-serif;
-$pageHeaderFont: "Quattrocento", serif;
 
 body {
     background: $backgroundColor;
@@ -13,13 +11,13 @@ body {
     font-family: $bodyFont;
     font-weight: 400;
     margin: 0 auto;
-    width: 100%;
+    width: 75%;
 }
 
 #content {
     display: block;
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
 }
 
 a, a:visited, a:hover, a:active {
@@ -28,25 +26,29 @@ a, a:visited, a:hover, a:active {
 }
 
 #title {
-    font-family: $titleFont;
-    font-size: 7.5vh;
+    font-family: $navFont;
+    font-size: 6.5vh;
     font-weight: 700;
     letter-spacing: .04em;
     text-align: center;
     color: #818181;
+    text-transform: uppercase;
+    margin-bottom: 0.1em;
 }
 
 nav {
     font-family: $navFont;
     font-weight: 400;
-    letter-spacing: .04em;
+    letter-spacing: .1em;
     color: grey;
     text-align: center;
-    margin: 2em;
+    //margin-top: 2em;
+    margin-bottom: 2em;
+    width: 100%;
 }
 
 nav a {
-    margin: 1em;
+    margin-right: 2em;
     text-transform: uppercase;
     color: grey;
     transition: color 1s;
@@ -56,39 +58,13 @@ nav a:hover, nav a:active {
     color: black;
 }
 
-
-#pageheader {
-    height: 25em;
-    background-size: 150% auto;
-    background-position: 50% 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 3em;
-}
-
-#pageheader h2 {
-    font-family: $pageHeaderFont;
-    font-size: 6.5vmin;
-    color: white;
-    text-transform: uppercase;
-    text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
-}
-
 .art-image {
     display: block;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    border: 1px solid black;
-    padding: 1px;
-}
-
-.front-image {
-    width: 75%;
 }
 
 #art-list {
-    border-top: 1px solid black;
     display: flex;
     flex-wrap: wrap;
 }
@@ -107,17 +83,17 @@ figure.art-preview img {
 }
 
 figure.art-preview figcaption {
-    font-family: $pageHeaderFont;
+    font-family: $navFont;
     font-weight: 400;
-    font-size: 4vmin;
+    font-size: 2vmin;
     letter-spacing: .17em;
     line-height: 1.3em;
     text-transform: uppercase;
     text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
-    color: lightgray;
+    color: white;
     text-align: center;
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    left: 1em;
+    top: 90%;
+   // transform: translate(-50%, -50%);
 }
