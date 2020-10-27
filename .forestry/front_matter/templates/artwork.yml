@@ -5,6 +5,11 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: artwork
+  config:
+    required: true
+  description: Should be "artwork" unless you think you know better.
+  hidden: true
 - type: text
   name: title
   label: title
