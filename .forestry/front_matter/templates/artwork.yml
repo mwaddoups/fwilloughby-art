@@ -27,4 +27,5 @@ fields:
     - Sculpture
     - Found Photography
 pages:
+- _artwork/art-thing.md
 - _artwork/the-elephant-in-the-room.md
