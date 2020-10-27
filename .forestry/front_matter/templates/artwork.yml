@@ -20,10 +20,11 @@ fields:
   name: type
   label: type
   config:
-      source:
-        type: custom
-      options:
-        - "Installation"
-        - "Sculpture"
-        - "Found Photography"
-    
+    source:
+      type: custom
+    options:
+    - Installation
+    - Sculpture
+    - Found Photography
+pages:
+- _artwork/the-elephant-in-the-room.md

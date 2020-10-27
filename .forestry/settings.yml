@@ -13,10 +13,10 @@ sections:
 - type: directory
   path: _artwork
   label: Artwork
-  templates:
-    - artwork
   create: all
   match: "**/*"
+  templates:
+  - artwork
 upload_dir: assets/images
 public_path: "/assets/images"
 front_matter_path: ''
