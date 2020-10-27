@@ -5,8 +5,6 @@ image: rupture.jpg
 type: Installation
 ---
 
-# {{ page.title }}
-
 Installation  
 Mixed media  
 2017  

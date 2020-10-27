@@ -5,8 +5,6 @@ image: the-elephant-in-the-room-1.jpg
 type: Installation
 ---
 
-# {{ page.title }}
-
 Installation in the dining room at the Russell-Cotes Gallery and Museum, Bournemouth.  
 Mixed media  
 2016  

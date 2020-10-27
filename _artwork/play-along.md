@@ -5,8 +5,6 @@ image: play-along-2.jpg
 type: Installation
 ---
 
-# {{ page.title }}
-
 Installation  
 Mixed media  
 2017
