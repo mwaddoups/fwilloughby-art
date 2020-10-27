@@ -16,6 +16,14 @@ fields:
 - type: file
   name: image
   label: image
-- type: text
+- type: select
   name: type
   label: type
+  config:
+      source:
+        type: custom
+      options:
+        - "Installation"
+        - "Sculpture"
+        - "Found Photography"
+    
