@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: The Elephant In The Room
-image: the-elephant-in-the-room-1.jpg
+image: "/assets/images/the-elephant-in-the-room-1.jpg"
 type: Installation
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: Play Along
-image: play-along-2.jpg
+image: "/assets/images/play-along-2.jpg"
 type: Installation
 ---
 

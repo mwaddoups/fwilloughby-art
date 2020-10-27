@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: Rupture
-image: rupture.jpg
+image: "/assets/images/rupture.jpg"
 type: Installation
 ---
 

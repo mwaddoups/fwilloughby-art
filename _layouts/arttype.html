@@ -8,7 +8,7 @@ layout: default
     {% if artwork.type == page.title %}
         <figure class="art-preview">
             <a href="{{ artwork.url }}">
-            <img src="{{ site.url }}/assets/images/{{ artwork.image }}">
+            <img src="{{ site.url }}{{ artwork.image }}">
             <figcaption>{{ artwork.title }}</figcaption>
             </a> 
         </figure>
