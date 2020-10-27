@@ -53,6 +53,12 @@ fields:
       format: markdown
   label: Description
   description: Main description
+- name: dimensions
+  type: text
+  config:
+    required: false
+  label: Dimensions
+  description: Dimensions of piece (can be blank)
 pages:
 - _artwork/the-elephant-in-the-room.md
 - _artwork/undone.md
