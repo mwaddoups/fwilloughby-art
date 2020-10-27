@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _data/navigation.yaml
   label: Navigation
-  read_only: false
 - type: jekyll-pages
   label: Pages
   create: all
