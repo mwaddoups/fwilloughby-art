@@ -5,3 +5,4 @@ title: "Frances Willoughby"
 collections:
     artwork:
         output: true
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
