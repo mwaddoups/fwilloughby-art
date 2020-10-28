@@ -2,7 +2,10 @@
 education:
 - school: Arts University Bournemouth
   degree: BA (hons) Fine Art (First Class)
-work: []
+work:
+- dates: 2018-Present
+  workplace: Ginkgo Projects, UK
+  job_title: Assistant
 solo_exhibitions: []
 group_exhibitions: []
 curatorial_projects: []
