@@ -8,7 +8,10 @@ layout: default
     {% if artwork.type == page.title %}
         <a href="{{ artwork.url }}">
         <figure>
-            <img src="{{ site.url }}{{ artwork.image }}">
+            {% responsive_image_block %}
+            path: {{ artwork.image | remove_first: "/" }}
+            class: "art-image"
+            {% endresponsive_image_block %}
             <figcaption>{{ artwork.title }}</figcaption>
         </figure>
         </a> 
