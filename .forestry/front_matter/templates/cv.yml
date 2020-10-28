@@ -1,4 +1,154 @@
 ---
 label: CV
 hide_body: true
-fields: []
+fields:
+- name: education
+  type: field_group_list
+  fields:
+  - name: school
+    type: text
+    config:
+      required: false
+    label: School
+  - name: degree
+    type: text
+    config:
+      required: false
+    label: Degree
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Education
+- name: work
+  type: field_group_list
+  fields:
+  - name: dates
+    type: text
+    config:
+      required: false
+    label: Dates
+  - name: workplace
+    type: text
+    config:
+      required: false
+    label: Workplace
+    description: e.g. Ginkgo Projects, UK
+  - name: job_title
+    type: text
+    config:
+      required: false
+    label: Job Title
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Work
+  description: Work, placements and internships
+- name: solo_exhibitions
+  type: field_group_list
+  fields:
+  - name: year
+    type: number
+    label: Year
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: place
+    type: text
+    config:
+      required: false
+    label: Place
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Solo Exhibitions
+- name: group_exhibitions
+  type: field_group_list
+  fields:
+  - name: year
+    type: number
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+    label: Year
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: place
+    type: text
+    config:
+      required: false
+    label: Place
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Group Exhibitions
+- name: curatorial_projects
+  type: field_group_list
+  fields:
+  - name: year
+    type: number
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+    label: Year
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: place
+    type: text
+    config:
+      required: false
+    label: Place
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Curatorial Projects
+- name: publications
+  type: field_group_list
+  fields:
+  - name: year
+    type: number
+    label: Year
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  - name: details
+    type: text
+    config:
+      required: false
+    label: Details
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Publications
