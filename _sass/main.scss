@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans);
+@import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700);
 
 $backgroundColor: white;
 $bodyColor: black;
@@ -22,14 +22,13 @@ a, a:visited, a:hover, a:active {
 
 #header {
     background: $backgroundColor;
-    letter-spacing: .1em;
     color: grey;
-    padding-bottom: 5px;
+    padding-bottom: 1px;
 }
 
 #title {
-    font-size: 6.5vh;
-    font-weight: 700;
+    font-size: 5.5vh;
+    font-weight: 400;
     letter-spacing: .04em;
     text-transform: uppercase;
     margin-bottom: 0.1em;
@@ -37,12 +36,13 @@ a, a:visited, a:hover, a:active {
 
 nav {
     font-weight: 400;
-    text-align: center;
+    letter-spacing: .1em;
 
     ul {
         padding: 0;
         list-style-type: none;
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
     } 
 
@@ -55,7 +55,45 @@ nav {
         color: black;
     }
 
+    ul li {
+        white-space: nowrap;
+        position: relative;
+        z-index: 2;
+
+        ul {
+            display: block;
+            position: absolute;
+            top: 1em;
+            padding: 0.25em;
+            //background: rgba(255, 255, 255, 0.6);
+            visibility: hidden;
+            opacity: 0;
+            transition: visibility 0s, opacity 0.5s linear;
+        }
+
+        ul li {
+            padding-top: 5px;
+        }
+    }
+
+    ul li:hover ul {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    @media screen and ( max-width: 700px ) {
+        ul {
+            height: 0;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        ul:hover {
+            height: auto;
+        }
+    }
 }
+
 
 
 #content {

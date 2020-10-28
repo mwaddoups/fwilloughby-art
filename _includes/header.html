@@ -3,7 +3,18 @@
     <nav>
         <ul>
           {% for item in site.data.navigation %}
-          <li><a href="{{ item.link }}" {% if page.url == item.link %}style="color: black;"{% endif %}>{{ item.name }}</a></li>
+          <li>
+            <a href="{{ item.link }}" {% if page.url == item.link %}style="color: black;"{% endif %}>{{ item.name }}</a>
+            <ul>
+              {% for artwork in site.artwork %}
+                {% if artwork.type == item.name %}
+                <li>
+                  <a href="{{ artwork.url }}" {% if page.url == artwork.url %}style="color: black;"{% endif %}>{{ artwork.title }}</a>
+                </li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </li>
           {% endfor %}
         </ul>
     </nav>
