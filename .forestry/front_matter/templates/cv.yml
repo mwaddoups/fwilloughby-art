@@ -18,7 +18,7 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: school
   label: Education
 - name: work
   type: field_group_list
@@ -42,7 +42,7 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: workplace
   label: Work
   description: Work, placements and internships
 - name: solo_exhibitions
@@ -71,7 +71,7 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: title
   label: Solo Exhibitions
 - name: group_exhibitions
   type: field_group_list
@@ -99,7 +99,7 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: title
   label: Group Exhibitions
 - name: curatorial_projects
   type: field_group_list
@@ -127,7 +127,7 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: title
   label: Curatorial Projects
 - name: publications
   type: field_group_list
@@ -150,7 +150,7 @@ fields:
   config:
     min: 
     max: 
-    labelField: 
+    labelField: details
   label: Publications
 pages:
 - _data/cv.yml
