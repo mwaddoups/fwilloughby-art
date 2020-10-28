@@ -7,9 +7,6 @@ sections:
 - type: document
   path: _data/cv.yml
   label: CV
-- type: document
-  path: _data/navigation.yaml
-  label: Navigation
 - type: jekyll-pages
   label: Pages
   create: all
