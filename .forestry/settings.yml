@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _data/cv.yml
   label: CV
-  match: "**/*"
 - type: document
   path: _data/navigation.yaml
   label: Navigation

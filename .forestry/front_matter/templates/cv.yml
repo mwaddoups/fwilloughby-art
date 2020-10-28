@@ -152,3 +152,5 @@ fields:
     max: 
     labelField: 
   label: Publications
+pages:
+- _data/cv.yml
