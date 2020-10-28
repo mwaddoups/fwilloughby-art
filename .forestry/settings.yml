@@ -5,6 +5,10 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: _data/cv.yml
+  label: CV
+  match: "**/*"
+- type: document
   path: _data/navigation.yaml
   label: Navigation
 - type: jekyll-pages
