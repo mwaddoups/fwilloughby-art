@@ -4,13 +4,10 @@
     justify-content: space-between;
     flex-wrap: wrap;
     
-    &__link {
+    &__figure {
         display: block;
         flex: 0 1 auto;
-    }
-
-    &__figure {
-        margin: 1em auto;
+        margin: 1em 0;
         height: 30vmin;
         position: relative;
         transition: background 0.3s ease-in-out;
@@ -22,7 +19,7 @@
 
     &__image {
       height: 100%;
-      width: 295px;
+      width: 100%;
       object-fit: cover;
       // these lines hide the image behind the hover effect on figure
       position: relative;

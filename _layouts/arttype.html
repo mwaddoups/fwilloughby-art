@@ -5,15 +5,15 @@ layout: default
 <div class="art-list">
 {% for artwork in site.artwork %}
   {% if artwork.type == page.title %}
-    <a href="{{ artwork.url }}" class="art-list__link">
     <figure class="art-list__figure">
+      <a href="{{ artwork.url }}">
         {% responsive_image_block %}
           path: {{ artwork.image | remove_first: "/" }}
           class: "art-list__image"
         {% endresponsive_image_block %}
         <figcaption class="art-list__caption">{{ artwork.title }}</figcaption>
+      </a> 
     </figure>
-    </a> 
   {% endif %}
 {% endfor %}
 </div>

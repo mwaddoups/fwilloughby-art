@@ -25,14 +25,14 @@
     z-index: 2;
   }
 
-  %dropdown-normal {
+  @mixin dropdown-normal {
     line-height: 1.1em;
     visibility: visible;
     opacity: 1;
   }
 
   &__item:hover &__dropdown {
-    @extend %dropdown-normal;
+    @include dropdown-normal;
   }
 
   &__dropdown {
@@ -48,16 +48,55 @@
     transition: line-height 0.3s, visibility 0s, opacity 0.3s;
 
     &--active {
-      @extend %dropdown-normal;
+      @include dropdown-normal;
       position: static;
     }
   }
 
+  // Checked = menu is closed
+  &__mobilebtn {
+    display: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    outline: none;
+    width: 1.5em;
+    height: 1.5em;
+    margin: 0.5em;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+    transform: rotate(225deg);
+  }
+
+  &__mobilebtn:checked {
+    transform: rotate(45deg);
+  }
+
 
   @media screen and ( max-width: 700px ) {
+    &__mobilebtn {
+      display: block;
+    }
+
+    &__mobilebtn:checked ~ &__list {
+      line-height: 0;
+    }
+
+    &__mobilebtn:checked ~ &__list * {
+      visibility: hidden;
+    }
+
     &__list {
       flex-direction: column;
       align-items: flex-start;
+      line-height: 1.1em;
+      transition: line-height 0.5s;
+    }
+
+    &__dropdown {
+      @include dropdown-normal;
+      position: static;
+      margin-left: 1em;
+      margin-bottom: 1em;
     }
   }
 }
