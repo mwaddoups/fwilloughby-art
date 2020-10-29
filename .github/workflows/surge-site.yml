@@ -5,9 +5,15 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Deploying to surge
+    name: Build jekyll and deploy to surge
     steps:
       - uses: actions/checkout@v1
+      - name: Install ruby and build site
+        uses: actions/setup-ruby@v1
+        with:
+          ruby-version: '2.6'
+      - run: bundle install --path vendor/bundle
+        run: bundle exec jekyll build
       - name: Install surge and fire deployment
         uses: actions/setup-node@v1
         with:
