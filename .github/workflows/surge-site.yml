@@ -11,11 +11,10 @@ jobs:
     name: Build jekyll and deploy to surge
     steps:
       - uses: actions/checkout@v1
-      - name: Install ruby and build site
-        uses: actions/setup-ruby@v1
+      - uses: actions/setup-ruby@v1
         with:
           ruby-version: '2.6'
-        uses: actions/setup-node@v1
+      - uses: actions/setup-node@v1
         with:
           node-version: 8
       - uses: actions/cache@v2
@@ -28,6 +27,5 @@ jobs:
       - run: bundle config path vendor/bundle
       - run: bundle install --path vendor/bundle
       - run: bundle exec jekyll build
-      - name: Install surge and fire deployment
       - run: npm install -g surge
       - run: surge ./_site ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
