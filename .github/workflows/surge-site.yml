@@ -15,12 +15,19 @@ jobs:
         uses: actions/setup-ruby@v1
         with:
           ruby-version: '2.6'
-      - name: Install surge and fire deployment
         uses: actions/setup-node@v1
         with:
           node-version: 8
+      - uses: actions/cache@v2
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
       - run: gem install bundler
+      - run: bundle config path vendor/bundle
       - run: bundle install --path vendor/bundle
       - run: bundle exec jekyll build
+      - name: Install surge and fire deployment
       - run: npm install -g surge
       - run: surge ./_site ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
