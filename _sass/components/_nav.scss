@@ -53,43 +53,48 @@
     }
   }
 
-  // Checked = menu is closed
-  &__mobilebtn {
+  &__mobilebtnlabel {
     display: none;
     cursor: pointer;
-    -webkit-appearance: none;
-    outline: none;
     width: 1.5em;
     height: 1.5em;
     margin: 0.5em;
-    border-bottom: 2px solid gray;
-    border-right: 2px solid gray;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
     transform: rotate(225deg);
+    transition: all 0.3s;
   }
 
-  &__mobilebtn:checked {
+  &__mobilebtn {
+    display: none;
+  }
+
+  // Checked = menu is closed
+  &__mobilebtn:checked ~ &__mobilebtnlabel {
     transform: rotate(45deg);
   }
 
 
   @media screen and ( max-width: 700px ) {
-    &__mobilebtn {
+    &__mobilebtnlabel {
       display: block;
     }
 
     &__mobilebtn:checked ~ &__list {
       line-height: 0;
+      opacity: 0;
     }
 
     &__mobilebtn:checked ~ &__list * {
-      visibility: hidden;
+      display: none;
     }
 
     &__list {
       flex-direction: column;
       align-items: flex-start;
       line-height: 1.1em;
-      transition: line-height 0.5s;
+      opacity: 1;
+      transition: line-height 0.3s, opacity 0.3s;
     }
 
     &__dropdown {
