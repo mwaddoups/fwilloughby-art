@@ -2,20 +2,19 @@
 layout: default
 ---
 
-
-<div id="art-list">
+<div class="art-list">
 {% for artwork in site.artwork %}
-    {% if artwork.type == page.title %}
-        <a href="{{ artwork.url }}">
-        <figure>
-            {% responsive_image_block %}
-            path: {{ artwork.image | remove_first: "/" }}
-            class: "art-image"
-            {% endresponsive_image_block %}
-            <figcaption>{{ artwork.title }}</figcaption>
-        </figure>
-        </a> 
-    {% endif %}
+  {% if artwork.type == page.title %}
+    <a href="{{ artwork.url }}" class="art-list__link">
+    <figure class="art-list__figure">
+        {% responsive_image_block %}
+          path: {{ artwork.image | remove_first: "/" }}
+          class: "art-list__image"
+        {% endresponsive_image_block %}
+        <figcaption class="art-list__caption">{{ artwork.title }}</figcaption>
+    </figure>
+    </a> 
+  {% endif %}
 {% endfor %}
 </div>
 

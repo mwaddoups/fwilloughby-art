@@ -1,21 +1,24 @@
-<div id="header">
-  <h1 id="title">Frances Willoughby</h1>
-    <nav>
-        <ul>
-          {% for item in site.data.navigation %}
-          <li>
-            <a href="{{ item.link }}" {% if page.url == item.link %}style="color: black;"{% endif %}>{{ item.name }}</a>
-            <ul>
-              {% for artwork in site.artwork %}
-                {% if artwork.type == item.name %}
-                <li>
-                  <a href="{{ artwork.url }}" {% if page.url == artwork.url %}style="color: black;"{% endif %}>{{ artwork.title }}</a>
+<header>
+  <h1 class="c-title">Frances Willoughby</h1>
+  <nav class="navbar">
+    <ul class="navbar__list">
+      {% for item in site.data.navigation %}
+        <li class="navbar__item">
+          <a href="{{ item.link }}" class="navbar__link{% if page.url == item.link %} navbar__link--active{% endif %}">{{ item.name }}</a>
+          {% assign dropdown = site.artwork | where:"type", item.name %}
+          {% assign dropdown_size = dropdown | size %}
+          {% if dropdown_size > 0 %}
+            {% assign active_art = dropdown | where:"url", page.url | size %}
+            <ul class="navbar__dropdown{% if active_art > 0 %} navbar__dropdown--active {% endif %}">
+              {% for artwork in dropdown %}
+                <li class="navbar__dropdownitem">
+                  <a href="{{ artwork.url }}" class="navbar__link {% if page.url == artwork.url %}navbar__link--active{% endif %}">{{ artwork.title }}</a>
                 </li>
-                {% endif %}
               {% endfor %}
             </ul>
-          </li>
-          {% endfor %}
-        </ul>
-    </nav>
-</div>
+          {% endif %}
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
