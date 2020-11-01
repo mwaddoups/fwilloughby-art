@@ -2,7 +2,7 @@
 layout: artwork
 year: 2019
 title: Untitled (Hiding)
-image: ''
+image: "/assets/images/dsc_0011.jpg"
 type: Found Photography
 media_type: Found Photography and Mixed Media
 description: 'Found photographs provoke unanswerable questions. These strangers represent
@@ -11,6 +11,5 @@ description: 'Found photographs provoke unanswerable questions. These strangers 
   an inexplicit memorial, conveying a sense of fragmentation and loss. '
 dimensions: ''
 exhibition: ''
-published: false
 
 ---
