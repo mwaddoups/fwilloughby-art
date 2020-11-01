@@ -1,7 +1,7 @@
 ---
 layout: artwork
 year: 2019
-title: Untitled (Flowers)-(copy)
+title: 'Untitled (Green Flowers) '
 image: ''
 type: Found Photography
 media_type: Found Photography and Mixed Media
