@@ -1,7 +1,7 @@
 ---
 layout: artwork
 title: Rupture
-image: "/assets/images/rupture.jpg"
+image: "/assets/images/frances-willoughby_rupture.jpg"
 type: Installation
 media_type: Mixed Media
 year: 2017
