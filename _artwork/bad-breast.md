@@ -2,7 +2,7 @@
 layout: artwork
 year: 2019
 title: Bad Breast
-image: ''
+image: "/assets/images/frances-willoughby-breasts-2.jpg"
 type: Sculpture
 media_type: ''
 description: "‘Bad Breast’ draws on Melanie Klein’s (b.1882-1960) theories on the
@@ -13,6 +13,5 @@ description: "‘Bad Breast’ draws on Melanie Klein’s (b.1882-1960) theories
   and the bad breast.  "
 dimensions: Each measures approx. 20 x 20 cm
 exhibition: ''
-published: false
 
 ---
