@@ -21,8 +21,8 @@ solo_exhibitions:
   place: Helmut Gallery, Leipzig, Germany
 group_exhibitions:
 - year: 2019
-  title: Eye of the Lens
-  place: Unit 6 Studio & Gallery, North Yorkshire, UK.
+  title: 36 Exposures
+  place: Fringe Arts Bath Festival, Bath, UK.
 - year: 2021
   title: Paper Festival
   place: The Manchester Central Library, Manchester Cathedral, The Portico Library,
@@ -45,6 +45,9 @@ group_exhibitions:
 - year: 2019
   title: Art Meets Play
   place: Thought Foundation, Gateshead, UK.
+- year: 2019
+  title: Eye of the Lens
+  place: Unit 6 Studio & Gallery, North Yorkshire, UK.
 curatorial_projects:
 - year: 2016
   title: 'SÉANCE : A Family Collection Revisited'
