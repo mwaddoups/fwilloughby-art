@@ -2,7 +2,7 @@
 layout: artwork
 year: 2020
 title: Escaping the Pull
-image: ''
+image: "/assets/images/escaping-the-pull-jpeg-3.jpg"
 type: Sculpture
 media_type: Mixed Media
 description: Catastrophic thinking is a behaviour I find myself doing more often than
@@ -12,6 +12,5 @@ description: Catastrophic thinking is a behaviour I find myself doing more often
   of this idea becoming reality.
 dimensions: ''
 exhibition: ''
-published: false
 
 ---
