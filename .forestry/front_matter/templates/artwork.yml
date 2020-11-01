@@ -67,6 +67,7 @@ fields:
   label: Exhibition
   description: Relevant exhibition for the work (will appear above description).
 pages:
+- _artwork/bad-breast.md
 - _artwork/escaping-the-pull.md
 - _artwork/the-elephant-in-the-room.md
 - _artwork/undone.md
