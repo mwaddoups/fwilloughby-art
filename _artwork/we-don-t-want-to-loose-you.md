@@ -2,7 +2,7 @@
 layout: artwork
 year: 2014
 title: We Don't Want to Loose You
-image: ''
+image: "/assets/images/jpeg-we-don-t-want-to-loose-you.jpg"
 type: Sculpture
 media_type: Mixed Media
 description: Stitched to my Grand Mother's table cloth are a collection of objects
@@ -11,6 +11,5 @@ description: Stitched to my Grand Mother's table cloth are a collection of objec
   on a family tapestry.
 dimensions: 100cm x 100 cm
 exhibition: ''
-published: false
 
 ---
