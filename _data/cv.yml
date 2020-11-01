@@ -21,8 +21,8 @@ solo_exhibitions:
   place: Helmut Gallery, Leipzig, Germany
 group_exhibitions:
 - year: 2018
-  title: Red Room Experience
-  place: The Bristol Improv Theatre Bar, Bristol, UK.
+  title: 5ft Tall Capsule Vending Machine
+  place: VANDEL/. UK.
 - year: 2021
   title: Paper Festival
   place: The Manchester Central Library, Manchester Cathedral, The Portico Library,
@@ -51,6 +51,9 @@ group_exhibitions:
 - year: 2019
   title: 36 Exposures
   place: Fringe Arts Bath Festival, Bath, UK.
+- year: 2018
+  title: Red Room Experience
+  place: The Bristol Improv Theatre Bar, Bristol, UK.
 curatorial_projects:
 - year: 2016
   title: 'SÉANCE : A Family Collection Revisited'
