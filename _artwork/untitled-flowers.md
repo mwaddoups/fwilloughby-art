@@ -1,7 +1,7 @@
 ---
 layout: artwork
 year: 2019
-title: Untitled (Flowers)
+title: Untitled (Purple Flowers)
 image: ''
 type: Found Photography
 media_type: Found Photography and Mixed Media
