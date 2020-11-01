@@ -8,6 +8,5 @@ media_type: Found Images
 description: ''
 dimensions: "​42 x 52 cm (framed)"
 exhibition: ''
-published: false
 
 ---
