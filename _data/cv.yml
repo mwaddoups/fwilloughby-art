@@ -20,28 +20,6 @@ solo_exhibitions:
   title: When Things Fall Apart
   place: Helmut Gallery, Leipzig, Germany
 group_exhibitions:
-- year: 2016
-  title: 'SÉANCE : A Family Collection Revisited'
-  place: Russell Cotes Museum and Gallery, Dorset, UK.
-- year: 2016
-  title: Dada Lives!
-  place: The University of Cincinnati’s Blue Ash Art Gallery, Cincinnati, Ohio, United
-    States.
-- year: 2016
-  title: Glenside Hospital Museum
-  place: Bristol, UK.
-- year: 2016
-  title: 467 Characters Long
-  place: BUMF, Bournemouth, UK.
-- year: 2016
-  title: Unbound
-  place: Espacio Gallery, London, UK.
-- year: 2017
-  title: The V. Serious Art Show
-  place: Northlight Studios, Bournemouth, UK.
-- year: 2017
-  title: The V. Serious Art Show at Free Range
-  place: The Truman Brewery, London, UK.
 - year: 2021
   title: Paper Festival
   place: The Manchester Central Library, Manchester Cathedral, The Portico Library,
@@ -82,10 +60,34 @@ group_exhibitions:
 - year: 2018
   title: FBA Futures
   place: Mall Galleries, 17 Carlton House Terrace, London, UK.
+- year: 2017
+  title: The V. Serious Art Show at Free Range
+  place: The Truman Brewery, London, UK.
+- year: 2017
+  title: The V. Serious Art Show
+  place: Northlight Studios, Bournemouth, UK.
+- year: 2016
+  title: Unbound
+  place: Espacio Gallery, London, UK.
+- year: 2016
+  title: 467 Characters Long
+  place: BUMF, Bournemouth, UK.
+- year: 2016
+  title: Glenside Hospital Museum
+  place: Bristol, UK.
+- year: 2016
+  title: Dada Lives!
+  place: The University of Cincinnati’s Blue Ash Art Gallery, Cincinnati, Ohio, United
+    States.
+- year: 2016
+  title: 'SÉANCE : A Family Collection Revisited'
+  place: Russell Cotes Museum and Gallery, Dorset, UK.
 curatorial_projects:
 - year: 2016
   title: 'SÉANCE : A Family Collection Revisited'
   place: Russell Cotes Museum and Gallery, Dorset, UK
 publications:
+- year: 2019
+  details: 'Willoughby, F, Artist (2019), Art Reveal Magazine (December). '
 - year: 2020
   details: Willoughby, F, Artist (2020), Average Art (February)
