@@ -20,9 +20,9 @@ solo_exhibitions:
   title: When Things Fall Apart
   place: Helmut Gallery, Leipzig, Germany
 group_exhibitions:
-- year: 2018
-  title: FBA Futures
-  place: Mall Galleries, 17 Carlton House Terrace, London, UK.
+- year: 2017
+  title: The V. Serious Art Show at Free Range
+  place: The Truman Brewery, London, UK.
 - year: 2021
   title: Paper Festival
   place: The Manchester Central Library, Manchester Cathedral, The Portico Library,
@@ -60,6 +60,9 @@ group_exhibitions:
 - year: 2018
   title: Chapter 1
   place: The Old Biscuit Factory, London, UK.
+- year: 2018
+  title: FBA Futures
+  place: Mall Galleries, 17 Carlton House Terrace, London, UK.
 curatorial_projects:
 - year: 2016
   title: 'SÉANCE : A Family Collection Revisited'
