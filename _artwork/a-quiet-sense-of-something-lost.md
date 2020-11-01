@@ -2,7 +2,7 @@
 layout: artwork
 year: 2018
 title: A Quiet Sense of Something Lost
-image: ''
+image: "/assets/images/a-quiet-sense-of-something-lost.JPG"
 type: Sculpture
 media_type: Mixed Media
 description: |-
@@ -10,6 +10,5 @@ description: |-
   I hang onto them, just in case.
 dimensions: 60 x 60 cm
 exhibition: ''
-published: false
 
 ---
