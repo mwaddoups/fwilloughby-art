@@ -17,6 +17,10 @@
     &:hover, &:active, &--active {
         color: black;
     }
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   &__item {
@@ -26,9 +30,9 @@
   }
 
   @mixin dropdown-normal {
-    line-height: 1.1em;
     visibility: visible;
     opacity: 1;
+    padding-left: 1em;
   }
 
   &__item:hover &__dropdown {
@@ -37,20 +41,27 @@
 
   &__dropdown {
     padding: 0;
+    padding-right: 0.2em;
     padding-top: 0.25em;
     list-style-type: none;
     position: absolute;
     top: 1em;
     // Animation
-    line-height: 0;
     visibility: hidden;
     opacity: 0;
-    transition: line-height 0.3s, visibility 0s, opacity 0.3s;
+    //transition: line-height 0.3s, visibility 0s, opacity 0.3s;;
+    transition: all 0.3s;
+    background: rgba(255, 255, 255, 0.7);
+    padding-left: 0em;
 
     &--active {
       @include dropdown-normal;
       position: static;
     }
+  }
+
+  &__dropdownitem {
+    margin-top: 0.2em;
   }
 
   &__mobilebtnlabel {
