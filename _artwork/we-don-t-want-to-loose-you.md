@@ -1,7 +1,7 @@
 ---
 layout: artwork
 year: 2014
-title: We Don't Want to Loose You
+title: We Don't Want to Lose You
 image: "/assets/images/jpeg-we-don-t-want-to-loose-you.jpg"
 type: Sculpture
 media_type: Mixed Media
