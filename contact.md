@@ -2,10 +2,12 @@
 layout: default
 title: Contact
 headerimage: play-along-2.jpg
----
 
+---
 # Contact
 
-I am always interested to hear about commissions, exhibition and collaboration opportunities.
+I am always interested to hear about commissions, exhibition and collaboration opportunities. Please contact me at:
 
-TODO: Add instagram and email
+franceswilloughby@hotmail.com
+
+Instagam: frances.wiilloughby.art
