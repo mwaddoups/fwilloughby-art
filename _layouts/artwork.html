@@ -1,11 +1,14 @@
 ---
 layout: default
 ---
-
+<div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+<div class="carousel-cell">
 {% responsive_image_block %}
 path: {{ page.image | remove_first: "/" }}
 class: "art-image"
 {% endresponsive_image_block %}
+</div>
+</div>
 <div id="art-description">
     <h1>{{ page.title }}</h1>
     <h3>{{ page.year }}, {{ page.media_type }}</h3>
