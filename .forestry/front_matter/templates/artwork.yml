@@ -18,6 +18,11 @@ fields:
 - type: file
   name: image
   label: Main Image
+- name: images
+  type: image_gallery
+  config: {}
+  label: Images
+  description: All images of the piece
 - type: select
   name: type
   config:
