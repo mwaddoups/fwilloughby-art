@@ -13,5 +13,8 @@ description: "‘Bad Breast’ draws on Melanie Klein’s (b.1882-1960) theories
   and the bad breast.  "
 dimensions: Each measures approx. 20 x 20 cm
 exhibition: ''
+images:
+- "/assets/images/frances-willoughby-breasts-3.jpg"
+- "/assets/images/frances-willoughby-breasts-1.jpg"
 
 ---
