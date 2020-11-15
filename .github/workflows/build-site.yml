@@ -8,7 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Build jekyll and deploy to surge
+    name: Build with jekyll and deploy to netlify
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-ruby@v1
