@@ -21,8 +21,8 @@ fields:
 - name: images
   type: image_gallery
   config: {}
-  label: Images
-  description: All images of the piece
+  label: Other Images
+  description: All other images of the piece (for slider)
 - type: select
   name: type
   config:
