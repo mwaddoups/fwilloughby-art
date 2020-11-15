@@ -1,14 +1,34 @@
 ---
 layout: default
 ---
-<div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
-<div class="carousel-cell">
-{% responsive_image_block %}
-path: {{ page.image | remove_first: "/" }}
-class: "art-image"
-{% endresponsive_image_block %}
-</div>
-</div>
+<!-- Note: .image is main_image, .images are other images -->
+{% assign extra_images = page.images | size %}
+{% if extra_images > 0 %}
+  <!-- Multiple images: use a carousel from flickity -->
+  <div class="main-carousel" data-flickity='{ "cellAlign": "left", "imagesLoaded": true }'>
+    <div class="carousel-cell">
+      {% responsive_image_block %}
+      path: {{ page.image | remove_first: "/" }}
+      class: "art-image"
+      {% endresponsive_image_block %}
+    </div>
+    {% for image in page.images %}
+      <div class="carousel-cell">
+        {% responsive_image_block %}
+        path: {{ image | remove_first: "/" }}
+        class: "art-image"
+        {% endresponsive_image_block %}
+      </div>
+    {% endfor %}
+    </div>
+{% else %}
+  <!-- Just display a single image -->
+  {% responsive_image_block %}
+  path: {{ page.image | remove_first: "/" }}
+  class: "art-image"
+  {% endresponsive_image_block %}
+{% endif %}
+
 <div id="art-description">
     <h1>{{ page.title }}</h1>
     <h3>{{ page.year }}, {{ page.media_type }}</h3>
