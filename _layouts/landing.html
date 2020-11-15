@@ -2,9 +2,11 @@
 layout: default
 ---
 
-{% responsive_image_block %}
-path: {{ page.mainimage | remove_first: "/" }}
-class: "art-image"
-{% endresponsive_image_block %}
+{% for image in page.images %}
+  {% responsive_image_block %}
+  path: {{ image | remove_first: "/" }}
+  class: "art-image"
+  {% endresponsive_image_block %}
+{% endfor %}
 
 <em>{{ content }}</em>
