@@ -3,7 +3,7 @@ layout: landing
 title: Home
 images:
 - "/assets/images/the-failure-of-pretence.jpg"
-- "/assets/images/a-quiet-sense-of-something-lost.jpg"
+- "/assets/images/a-quiet-sense-of-something-lost.JPG"
 - "/assets/images/dsc_0002-2.jpg"
 - "/assets/images/woman-house-2-jpeg.jpg"
 - "/assets/images/dsc_0013.jpg"
