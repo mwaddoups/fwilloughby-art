@@ -1,0 +1,48 @@
+.contact {
+  &__heading {
+    font-size: 1.2em;
+    letter-spacing: 0.04em;
+  }
+
+  &__email {
+    text-align: center;
+    font-size: Min(6vw, 1.5em);
+    letter-spacing: 0.04em;
+    color: gray;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+  &__instacontainer {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+.instagram {
+  &__heading {
+    height: 2em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+  }
+
+  &__icon {
+    height: 100%;
+    width: 2em;
+    margin-right: 1em;
+  }
+
+  &__name {
+    color: gray;
+    letter-spacing: 0.05em;
+  }
+
+  &__widget {
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 20px;
+    border-left: 3px solid rgba(128, 128, 128, 0.8);
+  }
+}
+
