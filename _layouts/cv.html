@@ -14,25 +14,25 @@ layout: default
 {% endfor %}
     
 <h2>Solo Exhibitions</h2>
-{% assign sorted = site.data.cv.solo_exhibitions | sort: "dates" | reverse %}
+{% assign sorted = site.data.cv.solo_exhibitions | sort: "year" | reverse %}
 {% for item in sorted %}
     <p>{{ item.year }}, {{ item.title }}, {{ item.place }}</p>
 {% endfor %}
 
 <h2>Group Exhibitions</h2>
-{% assign sorted = site.data.cv.group_exhibitions | sort: "dates" | reverse %}
+{% assign sorted = site.data.cv.group_exhibitions | sort: "year" | reverse%}
 {% for item in sorted %}
     <p>{{ item.year }}, {{ item.title }}, {{ item.place }}</p>
 {% endfor %}
 
 <h2>Curatorial Projects</h2>
-{% assign sorted = site.data.cv.curatorial_projects | sort: "dates" | reverse %}
+{% assign sorted = site.data.cv.curatorial_projects | sort: "year" | reverse %}
 {% for item in sorted %}
     <p>{{ item.year }}, {{ item.title }}, {{ item.place }}</p>
 {% endfor %}
 
 <h2>Publications</h2>
-{% assign sorted = site.data.cv.publications | sort: "dates" | reverse %}
+{% assign sorted = site.data.cv.publications | sort: "year" | reverse %}
 {% for item in sorted %}
     <p>{{ item.year }}, {{ item.details }}</p>
 {% endfor %}
