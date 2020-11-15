@@ -2,6 +2,22 @@
 layout: default
 ---
 
+<style>
+.cv-list {
+  display: grid;
+  grid-template-columns: 3em auto;
+}
+
+.cv-list p {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+.cv-list__year {
+  font-weight: 700;
+}
+</style>
+
 <h2>Education</h2>
 {% for item in site.data.cv.education %}
     <p>{{ item.school }}, {{ item.degree }}</p>
@@ -10,29 +26,61 @@ layout: default
 <h2>Work, Placements and Internships</h2>
 {% assign sorted = site.data.cv.work | sort: "dates" | reverse %}
 {% for item in sorted %}
-    <p>{{ item.dates }}, {{ item.workplace }}, {{ item.job_title }}</p>
+<p><span style="font-weight: 700;">{{ item.dates }}</span> <em>{{ item.job_title }}</em>, {{ item.workplace }}</p>
 {% endfor %}
     
 <h2>Solo Exhibitions</h2>
 {% assign sorted = site.data.cv.solo_exhibitions | sort: "year" | reverse %}
+{% assign current_year = 0 %}
+<div class="cv-list">
 {% for item in sorted %}
-    <p>{{ item.year }}, {{ item.title }}, {{ item.place }}</p>
+  {% if current_year != item.year %}
+    <p class="cv-list__year">{{ item.year }}</p><p><em>{{ item.title }}</em>, {{ item.place }}</p>
+    {% assign current_year = item.year %}
+  {% else %}
+   <p> </p><p><em>{{ item.title }}</em>, {{ item.place }}</p>
+  {% endif %}
 {% endfor %}
+</div>
 
 <h2>Group Exhibitions</h2>
-{% assign sorted = site.data.cv.group_exhibitions | sort: "year" | reverse%}
+{% assign sorted = site.data.cv.group_exhibitions | sort: "year" | reverse %}
+{% assign current_year = 0 %}
+<div class="cv-list">
 {% for item in sorted %}
-    <p>{{ item.year }}, {{ item.title }}, {{ item.place }}</p>
+  {% if current_year != item.year %}
+    <p class="cv-list__year">{{ item.year }}</p><p><em>{{ item.title }}</em>, {{ item.place }}</p>
+    {% assign current_year = item.year %}
+  {% else %}
+   <p> </p><p><em>{{ item.title }}</em>, {{ item.place }}</p>
+  {% endif %}
 {% endfor %}
+</div>
 
 <h2>Curatorial Projects</h2>
 {% assign sorted = site.data.cv.curatorial_projects | sort: "year" | reverse %}
+{% assign current_year = 0 %}
+<div class="cv-list">
 {% for item in sorted %}
-    <p>{{ item.year }}, {{ item.title }}, {{ item.place }}</p>
+  {% if current_year != item.year %}
+    <p class="cv-list__year">{{ item.year }}</p><p><em>{{ item.title }}</em>, {{ item.place }}</p>
+    {% assign current_year = item.year %}
+  {% else %}
+   <p> </p><p><em>{{ item.title }}</em>, {{ item.place }}</p>
+  {% endif %}
 {% endfor %}
+</div>
 
 <h2>Publications</h2>
 {% assign sorted = site.data.cv.publications | sort: "year" | reverse %}
+{% assign current_year = 0 %}
+<div class="cv-list">
 {% for item in sorted %}
-    <p>{{ item.year }}, {{ item.details }}</p>
+  {% if current_year != item.year %}
+    <p class="cv-list__year">{{ item.year }}</p><p><em>{{ item.details }}</em>, {{ item.place }}</p>
+    {% assign current_year = item.year %}
+  {% else %}
+   <p> </p><p><em>{{ item.details }}</em>, {{ item.place }}</p>
+  {% endif %}
 {% endfor %}
+</div>
