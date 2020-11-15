@@ -11,5 +11,7 @@ description: 'Found photographs provoke unanswerable questions. These strangers 
   an inexplicit memorial, conveying a sense of fragmentation and loss. '
 dimensions: 9 x 6 cm (each)
 exhibition: ''
+images:
+- "/assets/images/img_2014.jpg"
 
 ---
