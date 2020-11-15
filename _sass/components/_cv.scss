@@ -1,0 +1,14 @@
+.cv-list {
+  display: grid;
+  grid-template-columns: 3em auto;
+
+  & p {
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+
+  &__year {
+    font-weight: 700;
+  }
+}
+

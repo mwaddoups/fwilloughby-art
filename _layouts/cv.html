@@ -2,22 +2,6 @@
 layout: default
 ---
 
-<style>
-.cv-list {
-  display: grid;
-  grid-template-columns: 3em auto;
-}
-
-.cv-list p {
-  margin-top: 0;
-  margin-bottom: 1em;
-}
-
-.cv-list__year {
-  font-weight: 700;
-}
-</style>
-
 <h2>Education</h2>
 {% for item in site.data.cv.education %}
     <p>{{ item.school }}, {{ item.degree }}</p>
@@ -26,7 +10,7 @@ layout: default
 <h2>Work, Placements and Internships</h2>
 {% assign sorted = site.data.cv.work | sort: "dates" | reverse %}
 {% for item in sorted %}
-<p><span style="font-weight: 700;">{{ item.dates }}</span> <em>{{ item.job_title }}</em>, {{ item.workplace }}</p>
+<p><span class="cv-list__year">{{ item.dates }}</span> <em>{{ item.job_title }}</em>, {{ item.workplace }}</p>
 {% endfor %}
     
 <h2>Solo Exhibitions</h2>
