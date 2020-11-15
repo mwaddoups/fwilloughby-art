@@ -35,5 +35,12 @@
     <!-- These script tags are used to stop a CSS bug in chrome --><script> </script>
     <script src="{{ "/assets/js/flickity.pkgd.min.js" | relative_url }}"></script>
     <script src="https://unpkg.com/flickity-fullscreen@1/fullscreen.js"></script>
+    <script>
+      let flkty = new Flickity('.carousel', {
+        imagesLoaded: true,
+        fullscreen: true,
+        autoPlay: 5000,
+      });
+    </script>
   </body>
 </html>
