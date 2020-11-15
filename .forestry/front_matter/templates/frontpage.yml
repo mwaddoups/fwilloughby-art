@@ -1,0 +1,13 @@
+---
+label: Frontpage
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: image_gallery
+  name: images
+  label: images
