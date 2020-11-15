@@ -4,13 +4,15 @@ layout: default
 <!-- Note: .image is main_image, .images are other images -->
 <div class="carousel" data-flickity='{ "imagesLoaded": true, "fullscreen": true, "autoPlay": 5000 }'>
     {% responsive_image_block %}
-    path: {{ page.image | remove_first: "/" }}
-    class: "art-image"
+      path: {{ page.image | remove_first: "/" }}
+      class: "art-image"
+      sizes: "100vw"
     {% endresponsive_image_block %}
   {% for image in page.images %}
       {% responsive_image_block %}
-      path: {{ image | remove_first: "/" }}
-      class: "art-image"
+        path: {{ image | remove_first: "/" }}
+        class: "art-image"
+        sizes: "100vw"
       {% endresponsive_image_block %}
   {% endfor %}
 </div>

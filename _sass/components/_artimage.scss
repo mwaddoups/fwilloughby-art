@@ -1,6 +1,8 @@
 .art-image {
   max-height: 70vh;
   object-fit: contain;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .carousel.is-fullscreen .art-image {
@@ -8,11 +10,3 @@
   object-fit: contain;
 }
 
-.carousel.is-fullscreen { z-index: 3; }
-
-
-
-.flickity-slider {
-  display: flex;
-  align-items: center;
-}
