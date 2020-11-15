@@ -55,8 +55,8 @@
     padding-left: 0em;
 
     &--active {
-      @include dropdown-normal;
-      position: static;
+      //@include dropdown-normal;
+      //position: static;
     }
   }
 

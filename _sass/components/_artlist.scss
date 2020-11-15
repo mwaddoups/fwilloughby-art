@@ -1,14 +1,11 @@
 .art-list {
     margin: 0 auto;
     display: grid;
-    //justify-content: space-around;
-    //flex-wrap: wrap;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     
     &__figure {
       display: block;
-      //flex: 1 1 300px;
       margin: 0.2em;
       height: 30vmin;
       position: relative;

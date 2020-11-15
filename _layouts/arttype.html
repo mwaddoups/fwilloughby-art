@@ -10,6 +10,7 @@ layout: default
         {% responsive_image_block %}
           path: {{ artwork.image | remove_first: "/" }}
           class: "art-list__image"
+          sizes: "(min-width: 700px) 33vw, 100vw"
         {% endresponsive_image_block %}
         <figcaption class="art-list__caption">{{ artwork.title }}</figcaption>
       </figure>
