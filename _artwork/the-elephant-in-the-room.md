@@ -12,5 +12,8 @@ description: 'The dining room is the focus of a home; it''s the place where conv
   secrets some larger than others: the sensitive subjects or people that we collectively
   agree not to discuss. This is the reality of family life.'
 dimensions: ''
+images:
+- "/assets/images/the-elephant-in-the-room.jpg"
+- "/assets/images/elephant-1.jpg"
 
 ---

@@ -12,5 +12,8 @@ description: Catastrophic thinking is a behaviour I find myself doing more often
   of this idea becoming reality.
 dimensions: ''
 exhibition: ''
+images:
+- "/assets/images/escaping-the-pull-jpeg-1.jpg"
+- "/assets/images/escaping-the-pull-jpeg-2.jpg"
 
 ---
