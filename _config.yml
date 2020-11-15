@@ -16,3 +16,4 @@ responsive_image:
         - width: 720
         - width: 950
         - width: 1200
+    output_path_format: assets/resized/%{width}/%{basename}
