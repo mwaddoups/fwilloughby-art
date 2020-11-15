@@ -116,3 +116,8 @@
     }
   }
 }
+
+// Needed for flickity to work nicely
+.is-flickity-fullscreen .navbar__item {
+  z-index: -1;
+}

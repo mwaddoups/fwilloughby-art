@@ -2,28 +2,18 @@
 layout: default
 ---
 <!-- Note: .image is main_image, .images are other images -->
-{% assign extra_images = page.images | size %}
-{% if extra_images > 0 %}
-  <!-- Multiple images: use a carousel from flickity -->
-  <div class="carousel" data-flickity='{ "imagesLoaded": true, "fullscreen": true }'>
+<div class="carousel" data-flickity='{ "imagesLoaded": true, "fullscreen": true }'>
+    {% responsive_image_block %}
+    path: {{ page.image | remove_first: "/" }}
+    class: "art-image"
+    {% endresponsive_image_block %}
+  {% for image in page.images %}
       {% responsive_image_block %}
-      path: {{ page.image | remove_first: "/" }}
+      path: {{ image | remove_first: "/" }}
       class: "art-image"
       {% endresponsive_image_block %}
-    {% for image in page.images %}
-        {% responsive_image_block %}
-        path: {{ image | remove_first: "/" }}
-        class: "art-image"
-        {% endresponsive_image_block %}
-    {% endfor %}
-  </div>
-{% else %}
-  <!-- Just display a single image -->
-  {% responsive_image_block %}
-  path: {{ page.image | remove_first: "/" }}
-  class: "art-image"
-  {% endresponsive_image_block %}
-{% endif %}
+  {% endfor %}
+</div>
 
 <div id="art-description">
     <h1>{{ page.title }}</h1>
