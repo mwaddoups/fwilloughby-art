@@ -5,22 +5,18 @@ layout: default
 {% assign extra_images = page.images | size %}
 {% if extra_images > 0 %}
   <!-- Multiple images: use a carousel from flickity -->
-  <div class="main-carousel" data-flickity='{ "cellAlign": "left", "imagesLoaded": true }'>
-    <div class="carousel-cell">
+  <div class="carousel" data-flickity='{ "imagesLoaded": true, "fullscreen": true }'>
       {% responsive_image_block %}
       path: {{ page.image | remove_first: "/" }}
       class: "art-image"
       {% endresponsive_image_block %}
-    </div>
     {% for image in page.images %}
-      <div class="carousel-cell">
         {% responsive_image_block %}
         path: {{ image | remove_first: "/" }}
         class: "art-image"
         {% endresponsive_image_block %}
-      </div>
     {% endfor %}
-    </div>
+  </div>
 {% else %}
   <!-- Just display a single image -->
   {% responsive_image_block %}
