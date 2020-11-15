@@ -27,5 +27,10 @@ jobs:
       - run: bundle config path vendor/bundle
       - run: bundle install --path vendor/bundle
       - run: bundle exec jekyll build
-      - run: npm install -g surge
-      - run: surge ./_site ${{ secrets.SURGE_DOMAIN }} --token ${{ secrets.SURGE_TOKEN }}
+      - name: Publish
+        uses: netlify/actions/cli@master
+        with:
+          args: deploy --dir=site --functions=functions
+        env:
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
