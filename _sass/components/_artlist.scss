@@ -37,6 +37,10 @@
         color: white;
     }
 
+  &--front {
+    grid-template-columns: 1fr 1fr 1fr !important;
+  }
+
   @media screen and ( max-width: $mobileWidth ) {
     grid-template-columns: 1fr;
   }

@@ -2,11 +2,18 @@
 layout: default
 ---
 
+<div class="art-list art-list--front">
 {% for image in page.images %}
-  {% responsive_image_block %}
-  path: {{ image | remove_first: "/" }}
-  class: "art-image"
-  {% endresponsive_image_block %}
+  <a href="#">
+    <figure class="art-list__figure">
+    {% responsive_image_block %}
+      path: {{ image | remove_first: "/" }}
+      class: "art-list__image"
+      sizes: "33vw"
+    {% endresponsive_image_block %}
+    </figure>
+  </a> 
 {% endfor %}
+</div>
 
 <em>{{ content }}</em>
