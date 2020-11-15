@@ -2,7 +2,7 @@
 layout: default
 ---
 <!-- Note: .image is main_image, .images are other images -->
-<div class="carousel" data-flickity='{ "imagesLoaded": true, "fullscreen": true }'>
+<div class="carousel" data-flickity='{ "imagesLoaded": true, "fullscreen": true, "autoPlay": 5000 }'>
     {% responsive_image_block %}
     path: {{ page.image | remove_first: "/" }}
     class: "art-image"
