@@ -58,6 +58,15 @@ fields:
       min: 
       max: 
       step: 
+  - name: date
+    type: datetime
+    label: Date
+    description: ''
+    config:
+      required: false
+      date_format: 
+      time_format: 
+      display_utc: false
   - name: title
     type: text
     config:
@@ -86,6 +95,15 @@ fields:
       max: 
       step: 
     label: Year
+  - name: date
+    type: datetime
+    label: Date
+    description: ''
+    config:
+      required: false
+      date_format: 
+      time_format: 
+      display_utc: false
   - name: title
     type: text
     config:
@@ -114,6 +132,15 @@ fields:
       max: 
       step: 
     label: Year
+  - name: date
+    type: datetime
+    label: Date
+    description: ''
+    config:
+      required: false
+      date_format: 
+      time_format: 
+      display_utc: false
   - name: title
     type: text
     config:
@@ -142,6 +169,15 @@ fields:
       min: 
       max: 
       step: 
+  - name: date
+    type: datetime
+    label: Date
+    description: ''
+    config:
+      required: false
+      date_format: 
+      time_format: 
+      display_utc: false
   - name: details
     type: text
     config:
