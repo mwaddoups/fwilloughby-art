@@ -10,4 +10,4 @@ images:
 - "/assets/images/woman-house-2-jpeg.jpg"
 
 ---
-Frances Willoughby is a British artist based in Bristol, who graduated in 2017 with a BA (hons) in Fine Art at Arts University Bournemouth. She predominately works with sculpture and collage using a mixture of found objects and textiles. Her work explores themes such as memory, nostalgia and the uncanny.
+Frances Willoughby is a British artist based in Bristol. She predominately works with sculpture and collage using a mixture of found objects and images. Her work explores themes such as memory, nostalgia and the uncanny. She has exhibited both nationally and internationally, and holds a BA (hons) in Fine Art from Arts University Bournemouth.
