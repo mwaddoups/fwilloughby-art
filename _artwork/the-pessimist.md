@@ -8,5 +8,7 @@ media_type: Mixed Media
 description: ''
 dimensions: 28 x 13 x 8 cm
 exhibition: ''
+images: []
+date: 2019-02-01 00:00:00 +0000
 
 ---
