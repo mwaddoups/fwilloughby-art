@@ -11,7 +11,7 @@ description: The original image was found under a bed hidden away. It has been c
 dimensions: "​52cm x 72cm (framed)"
 exhibition: ''
 images: []
-date: 2016-01-01 00:00:00 +0000
+date: 2016-01-03 00:00:00 +0000
 
 ---
 Some text
