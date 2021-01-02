@@ -1,5 +1,6 @@
 ---
 layout: arttype
-title: Found Photography
+title: Collage
 headerimage: undone.jpg
+
 ---
