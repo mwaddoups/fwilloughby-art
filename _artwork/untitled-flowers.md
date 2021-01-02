@@ -11,7 +11,10 @@ description: 'Found photographs provoke unanswerable questions. These strangers 
   an inexplicit memorial, conveying a sense of fragmentation and loss. '
 dimensions: ''
 exhibition: ''
-images: []
-date: 
+images:
+- "/assets/images/dsc_0007.jpg"
+- "/assets/images/dsc_0011.jpg"
+- "/assets/images/dsc_0004.jpg"
+date: 2019-07-31 23:00:00 +0000
 
 ---
