@@ -1,7 +1,7 @@
 ---
 layout: artwork
 year: 2019
-title: Untitled
+title: Untitled Portraits
 image: "/assets/images/img_2019.jpg"
 type: Found Photography
 media_type: Found Photography and Mixed Media
