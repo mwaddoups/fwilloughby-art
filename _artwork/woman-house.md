@@ -9,5 +9,6 @@ description: ''
 dimensions: 150 x 110 x 62 cm
 exhibition: ''
 images: []
+date: 
 
 ---
