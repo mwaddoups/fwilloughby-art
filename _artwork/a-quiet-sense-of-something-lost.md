@@ -10,5 +10,7 @@ description: |-
   I hang onto them, just in case.
 dimensions: 60 x 60 cm
 exhibition: ''
+images: []
+date: 2018-01-02 00:00:00 +0000
 
 ---
