@@ -25,6 +25,6 @@ images:
 - "/assets/images/img_2030.jpg"
 - "/assets/images/img_2029.jpg"
 - "/assets/images/img_2027.jpg"
-date: 
+date: 2019-01-01 00:00:00 +0000
 
 ---
