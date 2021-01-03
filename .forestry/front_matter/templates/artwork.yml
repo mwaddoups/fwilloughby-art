@@ -31,7 +31,7 @@ fields:
     options:
     - Installation
     - Sculpture
-    - Found Photography
+    - Collage
   label: Type of Work
 - name: media_type
   type: text

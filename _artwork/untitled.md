@@ -3,7 +3,7 @@ layout: artwork
 year: 2019
 title: Untitled Portraits
 image: "/assets/images/img_2019.jpg"
-type: Found Photography
+type: Collage
 media_type: Mixed Media Collage
 description: 'Found photographs provoke unanswerable questions. These strangers represent
   faded memories, an anonymous snapshot into another reality. Undefined and malleable

@@ -2,7 +2,7 @@
 layout: artwork
 title: Undone
 image: "/assets/images/undone-edit.jpg"
-type: Found Photography
+type: Collage
 media_type: Collage
 year: 2016
 description: The original image was found under a bed hidden away. It has been covered

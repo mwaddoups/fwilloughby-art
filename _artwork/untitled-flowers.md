@@ -3,7 +3,7 @@ layout: artwork
 year: 2019
 title: Flower Portraits
 image: "/assets/images/dsc_0013.jpg"
-type: Found Photography
+type: Collage
 media_type: Found Photography and Mixed Media
 description: 'Found photographs provoke unanswerable questions. These strangers represent
   faded memories, an anonymous snapshot into another reality. Undefined and malleable
