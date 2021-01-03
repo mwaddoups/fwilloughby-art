@@ -7,7 +7,7 @@
       {% for item in site.data.navigation %}
         <li class="navbar__item">
           <a href="{{ item.link }}" class="navbar__link{% if page.url == item.link %} navbar__link--active{% endif %}">{{ item.name }}</a>
-          {% assign dropdown = site.artwork | where:"type", item.name %}
+          {% assign dropdown = site.artwork | where:"type", item.name | sort: "date" | reverse %}
           {% assign dropdown_size = dropdown | size %}
           {% if dropdown_size > 0 %}
             {% assign active_art = dropdown | where:"url", page.url | size %}
