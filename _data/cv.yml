@@ -1,5 +1,7 @@
 ---
 education:
+- school: NewPlatform.Art
+  degree: Professional Development Programme
 - school: Arts University Bournemouth
   degree: BA (hons) Fine Art (First Class)
 work:
@@ -23,13 +25,13 @@ solo_exhibitions:
   date: 
 group_exhibitions:
 - year: 2021
-  date: 2021-06-26 23:00:00 +0000
-  title: The Playful Turn
-  place: Espacio Gallery, London, UK.
-- year: 2021
   date: 2021-07-25 23:00:00 +0000
   title: 'Co.Curation: Distanced Domestic'
   place: MKII (Formerly The Old Dairy), London, UK.
+- year: 2021
+  date: 2021-06-26 23:00:00 +0000
+  title: The Playful Turn
+  place: Espacio Gallery, London, UK.
 - year: 2021
   title: Paper Festival
   place: The Manchester Central Library, Manchester Cathedral, The Portico Library,
