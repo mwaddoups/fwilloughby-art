@@ -25,10 +25,6 @@ solo_exhibitions:
   date: 
 group_exhibitions:
 - year: 2021
-  date: 2021-05-31 23:00:00 +0000
-  title: Art as a Response to Mental Health
-  place: Doncaster Art Fair, Online.
-- year: 2021
   date: 2021-09-29 23:00:00 +0000
   title: Text Me When You Get Home
   place: The Impulse Movement, Oxfordshire, UK.
@@ -56,6 +52,10 @@ group_exhibitions:
   date: 2020-11-01T00:00:00.000+00:00
   title: WHY?
   place: 'Cultivate Gallery, London, UK. '
+- year: 2021
+  date: 2021-05-31 23:00:00 +0000
+  title: Art as a Response to Mental Health
+  place: Doncaster Art Fair, Online.
 - year: 2020
   title: Assemblage
   place: Fringe Arts Bath Festival, Bath, UK.
@@ -139,6 +139,9 @@ curatorial_projects:
   place: Russell Cotes Museum and Gallery, Dorset, UK
   date: 
 publications:
+- year: 2021
+  date: 2021-05-31 23:00:00 +0000
+  details: Willoughby, F, Artist (2021), Superpresent (June). Texas, USA.
 - year: 2021
   date: 2021-05-31 23:00:00 +0000
   details: 'Willoughby, F, Artist (2021), The Working Artist: V (June)'
