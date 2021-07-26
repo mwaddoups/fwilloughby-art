@@ -146,24 +146,20 @@ publications:
   date: 2021-05-31 23:00:00 +0000
   details: 'Willoughby, F, Artist (2021), The Working Artist: V (June)'
 - year: 2020
-  date: 2020-11-01T00:00:00.000+00:00
   details: Willoughby, F, Artist (2020), Haus-a-rest Zine, Issue 7 - The Mental health
     issue (November)
+  date: 
 - year: 2020
   details: Willoughby, F, Artist (2020) Penny Thoughts (November)
   date: 
 - year: 2020
-  details: Willoughby, F, Artist (2020), Haus-a-rest Zine, Issue 7 - The Mental health
-    issue (November)
-  date: 
-- year: 2020
   details: Willoughby, F, Artist (2020), Average Art (February)
-  date: 
-- year: 2019
-  details: Willoughby, F, Artist (2019), Art Reveal Magazine (December)
   date: 
 - year: 2017
   details: 'Willoughby, F, Artist (2017), Wotisart? #9 (December)'
+  date: 
+- year: 2019
+  details: Willoughby, F, Artist (2019), Art Reveal Magazine (December)
   date: 
 prizes:
 - prize_title: ''
