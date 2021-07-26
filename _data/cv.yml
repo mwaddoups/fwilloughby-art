@@ -25,9 +25,9 @@ solo_exhibitions:
   date: 
 group_exhibitions:
 - year: 2021
-  date: 2021-03-31 23:00:00 +0000
-  title: Saturation
-  place: Cultivate, Online.
+  date: 2021-05-31 23:00:00 +0000
+  title: Art as a Response to Mental Health
+  place: Doncaster Art Fair, Online.
 - year: 2021
   date: 2021-09-29 23:00:00 +0000
   title: Text Me When You Get Home
@@ -49,10 +49,9 @@ group_exhibitions:
   title: The Playful Turn
   place: Espacio Gallery, London, UK.
 - year: 2021
-  title: Paper Festival
-  place: The Manchester Central Library, Manchester Cathedral, The Portico Library,
-    Clockwork, Manchester, UK
-  date: 2021-01-01 00:00:00 +0000
+  date: 2021-03-31 23:00:00 +0000
+  title: Saturation
+  place: Cultivate, Online.
 - year: 2020
   date: 2020-11-01T00:00:00.000+00:00
   title: WHY?
