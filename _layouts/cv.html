@@ -14,10 +14,9 @@ layout: default
 {% endfor %}
     
 <h2>Solo Exhibitions</h2>
-{% assign sorted = site.data.cv.solo_exhibitions | sort: "year" | reverse %}
 {% assign current_year = 0 %}
 <div class="cv-list">
-{% for item in sorted %}
+{% for item in site.data.cv.solo_exhibitions %}
   {% if current_year != item.year %}
     <p class="cv-list__year">{{ item.year }}</p><p><em>{{ item.title }}</em>, {{ item.place }}</p>
     {% assign current_year = item.year %}
@@ -28,10 +27,9 @@ layout: default
 </div>
 
 <h2>Group Exhibitions</h2>
-{% assign sorted = site.data.cv.group_exhibitions | sort: "year" | reverse %}
 {% assign current_year = 0 %}
 <div class="cv-list">
-{% for item in sorted %}
+{% for item in site.data.cv.group_exhibitions %}
   {% if current_year != item.year %}
     <p class="cv-list__year">{{ item.year }}</p><p><em>{{ item.title }}</em>, {{ item.place }}</p>
     {% assign current_year = item.year %}
@@ -42,10 +40,9 @@ layout: default
 </div>
 
 <h2>Curatorial Projects</h2>
-{% assign sorted = site.data.cv.curatorial_projects | sort: "year" | reverse %}
 {% assign current_year = 0 %}
 <div class="cv-list">
-{% for item in sorted %}
+{% for item in site.data.cv.curatorial_projects %}
   {% if current_year != item.year %}
     <p class="cv-list__year">{{ item.year }}</p><p><em>{{ item.title }}</em>, {{ item.place }}</p>
     {% assign current_year = item.year %}
@@ -56,10 +53,9 @@ layout: default
 </div>
 
 <h2>Publications</h2>
-{% assign sorted = site.data.cv.publications | sort: "year" | reverse %}
 {% assign current_year = 0 %}
 <div class="cv-list">
-{% for item in sorted %}
+{% for item in site.data.cv.publications %}
   {% if current_year != item.year %}
     <p class="cv-list__year">{{ item.year }}</p><p><em>{{ item.details }}</em>, {{ item.place }}</p>
     {% assign current_year = item.year %}

@@ -6,13 +6,13 @@ layout: default
     {% responsive_image_block %}
       path: {{ page.image | remove_first: "/" }}
       class: "art-image"
-      sizes: "(min-width: 640px) 480px, (min-width: 960px) 720px, 950px"
+      sizes: "(max-width: 640px) 470px, (max-width: 960px) 710px, 70vw"
     {% endresponsive_image_block %}
   {% for image in page.images %}
       {% responsive_image_block %}
         path: {{ image | remove_first: "/" }}
         class: "art-image"
-        sizes: "(min-width: 640px) 480px, (min-width: 960px) 720px, 950px"
+        sizes: "(max-width: 640px) 470px, (max-width: 960px) 710px, 70vw"
       {% endresponsive_image_block %}
   {% endfor %}
 </div>
