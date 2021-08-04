@@ -1,7 +1,7 @@
 ---
 education:
-- school: NewPlatform.Art
-  degree: Professional Development Programme
+- school: New Platform Art
+  degree: Professional Development Programme 2021
 - school: Arts University Bournemouth
   degree: BA (hons) Fine Art (First Class)
 work:
@@ -25,31 +25,31 @@ solo_exhibitions:
   date: 
 group_exhibitions:
 - year: 2021
-  date: 2021-09-29 23:00:00 +0000
+  date: 2021-09-29T23:00:00.000+00:00
   title: Text Me When You Get Home
   place: The Impulse Movement, Oxfordshire, UK.
 - year: 2021
-  date: 2021-08-30 23:00:00 +0000
+  date: 2021-08-30T23:00:00.000+00:00
   title: The Absurd
   place: Fubar Collective, The Crypt, London, UK.
 - year: 2021
-  date: 2021-07-25 23:00:00 +0000
+  date: 2021-07-25T23:00:00.000+00:00
   title: 'Co.Curation: Distanced Domestic'
   place: MKII (Formerly The Old Dairy), London, UK.
 - year: 2021
-  date: 2021-06-30 23:00:00 +0000
+  date: 2021-06-30T23:00:00.000+00:00
   title: Threshold
   place: D Contemporary, London, UK.
 - year: 2021
-  date: 2021-06-26 23:00:00 +0000
+  date: 2021-06-26T23:00:00.000+00:00
   title: The Playful Turn
   place: Espacio Gallery, London, UK.
 - year: 2021
-  date: 2021-03-31 23:00:00 +0000
+  date: 2021-03-31T23:00:00.000+00:00
   title: Saturation
   place: Cultivate, Online.
 - year: 2021
-  date: 2021-05-31 23:00:00 +0000
+  date: 2021-05-31T23:00:00.000+00:00
   title: Art as a Response to Mental Health
   place: Doncaster Art Fair, Online.
 - year: 2020
@@ -140,10 +140,10 @@ curatorial_projects:
   date: 
 publications:
 - year: 2021
-  date: 2021-05-31 23:00:00 +0000
+  date: 2021-05-31T23:00:00.000+00:00
   details: Willoughby, F, Artist (2021), Superpresent (June). Texas, USA.
 - year: 2021
-  date: 2021-05-31 23:00:00 +0000
+  date: 2021-05-31T23:00:00.000+00:00
   details: 'Willoughby, F, Artist (2021), The Working Artist: V (June)'
 - year: 2020
   details: Willoughby, F, Artist (2020), Haus-a-rest Zine, Issue 7 - The Mental health
