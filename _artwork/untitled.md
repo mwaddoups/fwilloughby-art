@@ -1,7 +1,7 @@
 ---
 layout: artwork
 year: 2019
-title: Untitled Portraits
+title: Lost and Found
 image: "/assets/images/img_2019.jpg"
 type: Collage
 media_type: Mixed Media Collage
@@ -25,6 +25,6 @@ images:
 - "/assets/images/img_2030.jpg"
 - "/assets/images/img_2029.jpg"
 - "/assets/images/img_2027.jpg"
-date: 2019-01-01 00:00:00 +0000
+date: 2019-01-01T00:00:00.000+00:00
 
 ---
