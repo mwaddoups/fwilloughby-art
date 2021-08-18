@@ -10,6 +10,5 @@ date: 2021-07-31 23:00:00 +0000
 description: ''
 dimensions: 29.7 x 42 cm
 exhibition: ''
-published: false
 
 ---
