@@ -8,10 +8,10 @@ year: 2016
 description: The original image was found under a bed hidden away. It has been covered
   with fragments of other bodies to create a monster, a truer representation of the
   original sitter.
-dimensions: "​52cm x 72cm (framed)"
+dimensions: "​52 x 72 cm (framed)"
 exhibition: ''
 images: []
-date: 2016-01-03 00:00:00 +0000
+date: 2016-01-03T00:00:00.000+00:00
 
 ---
 Some text
