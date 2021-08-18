@@ -1,23 +1,23 @@
 ---
 education:
 - school: New Platform Art
-  degree: Professional Development Programme 2021
+  degree: Professional Development Programme 2021.
 - school: Arts University Bournemouth
-  degree: BA (hons) Fine Art (First Class)
+  degree: BA (hons) Fine Art (First Class).
 work:
 - dates: 2018 - 2020
-  workplace: Ginkgo Projects, UK
+  workplace: Ginkgo Projects, UK.
   job_title: Assistant
 - dates: "2016"
-  workplace: Arnolfini, Bristol, UK
-  job_title: Gallery invigilator
+  workplace: Arnolfini, Bristol, UK.
+  job_title: Gallery Invigilator
 - dates: "2016"
   workplace: Glenside Hospital Museum, Bristol, UK.
-  job_title: Archiving and catalogue assistant.
+  job_title: Archiving and Catalogue Assistant.
 solo_exhibitions:
 - year: 2019
   title: When Things Fall Apart
-  place: Helmut Gallery, Leipzig, Germany
+  place: Helmut Gallery, Leipzig, Germany.
   date: 
 - year: 2017
   title: Showroom 1600
@@ -25,13 +25,13 @@ solo_exhibitions:
   date: 
 group_exhibitions:
 - year: 2021
-  date: 2021-09-29T23:00:00.000+00:00
-  title: Text Me When You Get Home
-  place: The Impulse Movement, Oxfordshire, UK.
-- year: 2021
   date: 2021-08-30T23:00:00.000+00:00
   title: The Absurd
   place: Fubar Collective, The Crypt, London, UK.
+- year: 2021
+  date: 2021-09-29T23:00:00.000+00:00
+  title: Text Me When You Get Home
+  place: The Impulse Movement, Oxfordshire, UK.
 - year: 2021
   date: 2021-07-25T23:00:00.000+00:00
   title: 'Co.Curation: Distanced Domestic'
@@ -47,11 +47,11 @@ group_exhibitions:
 - year: 2021
   date: 2021-03-31T23:00:00.000+00:00
   title: Saturation
-  place: Cultivate, Online.
+  place: Cultivate, Online Exhibition.
 - year: 2021
   date: 2021-05-31T23:00:00.000+00:00
   title: Art as a Response to Mental Health
-  place: Doncaster Art Fair, Online.
+  place: Doncaster Art Fair, Online Exhibition.
 - year: 2020
   date: 2020-11-01T00:00:00.000+00:00
   title: WHY?
