@@ -9,6 +9,7 @@ description: ''
 dimensions: "​42 x 52 cm (framed)"
 exhibition: ''
 images: []
-date: 2016-02-01 00:00:00 +0000
+date: 2016-02-01T00:00:00.000+00:00
+published: false
 
 ---
