@@ -2,7 +2,7 @@
 layout: artwork
 year: 2021
 title: To and Fro
-image: "/assets/images/ball-edit.jpg"
+image: "/assets/images/ball-edit-lighter.jpg"
 images: []
 type: Sculpture
 media_type: 'Mixed Media '
