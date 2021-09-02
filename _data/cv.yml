@@ -134,6 +134,10 @@ group_exhibitions:
   place: Russell Cotes Museum and Gallery, Dorset, UK.
   date: 
 curatorial_projects:
+- year: 2021
+  date: 2021-08-31 23:00:00 +0000
+  title: Co-, Studio Based Creative Development Project,
+  place: St Anne’s House, Bristol, UK.
 - year: 2016
   title: 'SÉANCE : A Family Collection Revisited'
   place: Russell Cotes Museum and Gallery, Dorset, UK.
@@ -163,7 +167,7 @@ publications:
   date: 
 prizes:
 - prize_title: ''
-  date: 
+  date: ''
 artist_residencies:
 - year: 2021
   date: 2021-08-31 23:00:00 +0000
