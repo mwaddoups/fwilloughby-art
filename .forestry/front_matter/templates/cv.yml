@@ -45,6 +45,38 @@ fields:
     labelField: workplace
   label: Work
   description: Work, placements and internships
+- name: artist_residencies
+  type: field_group_list
+  fields:
+  - name: year
+    type: number
+    label: Year
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  - name: date
+    type: datetime
+    label: Date
+    description: ''
+    config:
+      required: false
+      date_format: 
+      time_format: 
+      display_utc: false
+  - name: details
+    type: text
+    config:
+      required: false
+    label: Details
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Artist Residencies
 - name: prizes
   type: field_group_list
   fields:
@@ -212,37 +244,5 @@ fields:
     max: 
     labelField: details
   label: Publications
-- name: artist_residencies
-  type: field_group_list
-  fields:
-  - name: year
-    type: number
-    label: Year
-    description: ''
-    default: 0
-    required: true
-    config:
-      min: 
-      max: 
-      step: 
-  - name: date
-    type: datetime
-    label: Date
-    description: ''
-    config:
-      required: false
-      date_format: 
-      time_format: 
-      display_utc: false
-  - name: details
-    type: text
-    config:
-      required: false
-    label: Details
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: Artist Residencies
 pages:
 - _data/cv.yml
