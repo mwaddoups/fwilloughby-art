@@ -45,7 +45,7 @@ fields:
     labelField: workplace
   label: Work
   description: Work Placements and Internships
-- name: curatorial_projects
+- name: artist_residencies_and_curatorial_projects
   type: field_group_list
   fields:
   - name: year
