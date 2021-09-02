@@ -187,7 +187,7 @@ fields:
     min: 
     max: 
     labelField: title
-  label: Curatorial Projects
+  label: Artist Residencies and Curatorial Projects
 - name: publications
   type: field_group_list
   fields:
