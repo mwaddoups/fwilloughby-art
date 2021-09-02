@@ -44,7 +44,7 @@ fields:
     max: 
     labelField: workplace
   label: Work
-  description: Work, placements and internships
+  description: Work Placements and Internships
 - name: artist_residencies
   type: field_group_list
   fields:
@@ -75,32 +75,8 @@ fields:
   config:
     min: 
     max: 
-    labelField: details
+    labelField: ''
   label: Artist Residencies
-- name: prizes
-  type: field_group_list
-  fields:
-  - name: prize_title
-    type: text
-    config:
-      required: false
-    label: Prize Title
-    description: Title of prize
-  - name: date
-    type: datetime
-    label: Date
-    description: Date of award
-    config:
-      required: false
-      date_format: 
-      time_format: 
-      display_utc: false
-  config:
-    min: 
-    max: 
-    labelField: 
-  label: Prizes
-  description: Prizes and awards
 - name: solo_exhibitions
   type: field_group_list
   fields:
