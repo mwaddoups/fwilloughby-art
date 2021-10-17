@@ -1,7 +1,11 @@
 - name: Home
   link: /
-- name: CV
-  link: /cv.html
+- name: About
+  links: 
+    - name: CV
+      link: /cv.html
+    - name: Artist Statement
+      link: /artiststatement.html
 - name: Installation
   link: /installation.html
 - name: Sculpture

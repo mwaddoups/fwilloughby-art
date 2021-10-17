@@ -6,18 +6,29 @@
     <ul class="navbar__list">
       {% for item in site.data.navigation %}
         <li class="navbar__item">
-          <a href="{{ item.link }}" class="navbar__link{% if page.url == item.link %} navbar__link--active{% endif %}">{{ item.name }}</a>
-          {% assign dropdown = site.artwork | where:"type", item.name | sort: "date" | reverse %}
-          {% assign dropdown_size = dropdown | size %}
-          {% if dropdown_size > 0 %}
-            {% assign active_art = dropdown | where:"url", page.url | size %}
-            <ul class="navbar__dropdown{% if active_art > 0 %} navbar__dropdown--active {% endif %}">
-              {% for artwork in dropdown %}
+          {% if item.name == "About" %}
+            <span class="navbar__link{% if page.url == item.link %} navbar__link--active{% endif %}">{{ item.name }}</span>
+            <ul class="navbar__dropdown">
+              {% for subitem in item.links %}
                 <li class="navbar__dropdownitem">
-                  <a href="{{ artwork.url }}" class="navbar__link {% if page.url == artwork.url %}navbar__link--active{% endif %}">{{ artwork.title }} ({{ artwork.year }})</a>
+                  <a href="{{ subitem.link }}" class="navbar__link{% if page.url == subitem.link %} navbar__link--active{% endif %}">{{ subitem.name }}</a>
                 </li>
               {% endfor %}
             </ul>
+          {% else %}
+            <a href="{{ item.link }}" class="navbar__link{% if page.url == item.link %} navbar__link--active{% endif %}">{{ item.name }}</a>
+            {% assign dropdown = site.artwork | where:"type", item.name | sort: "date" | reverse %}
+            {% assign dropdown_size = dropdown | size %}
+            {% if dropdown_size > 0 %}
+              {% assign active_art = dropdown | where:"url", page.url | size %}
+              <ul class="navbar__dropdown{% if active_art > 0 %} navbar__dropdown--active {% endif %}">
+                {% for artwork in dropdown %}
+                  <li class="navbar__dropdownitem">
+                    <a href="{{ artwork.url }}" class="navbar__link {% if page.url == artwork.url %}navbar__link--active{% endif %}">{{ artwork.title }} ({{ artwork.year }})</a>
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
           {% endif %}
         </li>
       {% endfor %}
