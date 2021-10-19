@@ -52,6 +52,19 @@ layout: default
 {% endfor %}
 </div>
 
+<h2>Artist Residencies</h2>
+{% assign current_year = 0 %}
+<div class="cv-list">
+{% for item in site.data.cv.artist_residencies %}
+  {% if current_year != item.year %}
+    <p class="cv-list__year">{{ item.year }}</p><p><em>{{ item.title }}</em>, {{ item.place }}</p>
+    {% assign current_year = item.year %}
+  {% else %}
+   <p> </p><p><em>{{ item.details }}</em>, {{ item.place }}</p>
+  {% endif %}
+{% endfor %}
+</div>
+
 <h2>Publications</h2>
 {% assign current_year = 0 %}
 <div class="cv-list">

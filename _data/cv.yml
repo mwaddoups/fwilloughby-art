@@ -178,25 +178,9 @@ prizes:
 artist_residencies:
 - year: '2021'
   date: '2021-08-31 23:00:00 +0000'
-  details: Co-, Studio Based Creative Development Project, St Anne’s House, Bristol,
-    UK.
+  title: Co-Studio Based Creative Development Project
+  place: St Anne’s House, Bristol, UK
 - year: '2019'
   date: '2019-02-01 00:00:00 +0000'
-  details: Helmut Gallery, Leipzig, Germany.
-artist_residencies_and_curatorial_projects:
-- year: 2021
-  date: 2021-11-29 00:00:00 +0000
   title: Artist Residency
-  place: Hawkwood, Stroud, UK.
-- year: 2021
-  date: 2021-08-31 23:00:00 +0000
-  title: Co-, Studio Based Creative Development Project
-  place: St Anne’s House, Bristol, UK.
-- year: 2019
-  date: 2019-02-01 00:00:00 +0000
-  title: Artist Residency
-  place: 'Helmut Gallery, Leipzig, Germany. '
-- year: 2016
-  date: 2016-07-31 23:00:00 +0000
-  title: 'SÉANCE : A Family Collection Revisited'
-  place: 'Russell Cotes Museum and Gallery, Dorset, UK.  '
+  place: Helmut Gallery, Leipzig, Germany.
