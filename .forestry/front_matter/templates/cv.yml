@@ -45,7 +45,7 @@ fields:
     labelField: workplace
   label: Work
   description: Work Placements and Internships
-- name: artist_residencies_and_curatorial_projects
+- name: artist_residencies
   type: field_group_list
   fields:
   - name: year
@@ -81,8 +81,8 @@ fields:
     min: 
     max: 
     labelField: title
-  label: Artist Residencies and Curatorial Projects
-  description: Artist Residencies and Curatorial Projects
+  label: Artist Residencies
+  description: Artist Residencies
 - name: solo_exhibitions
   type: field_group_list
   fields:
@@ -189,5 +189,43 @@ fields:
     max: 
     labelField: details
   label: Publications
+- name: curatorial_projects
+  type: field_group_list
+  fields:
+  - name: year
+    type: number
+    label: Year
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  - name: date
+    type: datetime
+    label: Date
+    description: ''
+    config:
+      required: false
+      date_format: 
+      time_format: 
+      display_utc: false
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: place
+    type: text
+    config:
+      required: false
+    label: Place
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Curatorial Projects
+  description: Curatorial Projects
 pages:
 - _data/cv.yml
