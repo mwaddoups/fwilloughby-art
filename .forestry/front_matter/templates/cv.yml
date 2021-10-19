@@ -67,11 +67,11 @@ fields:
       date_format: 
       time_format: 
       display_utc: false
-  - name: title
+  - name: details
     type: text
     config:
       required: false
-    label: Title
+    label: Details
   - name: place
     type: text
     config:
