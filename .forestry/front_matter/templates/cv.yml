@@ -227,5 +227,44 @@ fields:
     labelField: 
   label: Curatorial Projects
   description: Curatorial Projects
+- name: awards
+  type: field_group_list
+  fields:
+  - name: year
+    type: number
+    label: Year
+    description: ''
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  - name: date
+    type: datetime
+    label: Date
+    description: ''
+    config:
+      required: false
+      date_format: 
+      time_format: 
+      display_utc: false
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+  - name: details
+    type: text
+    config:
+      required: false
+    label: Details
+    description: Optional
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Awards
+  description: Received awards
 pages:
 - _data/cv.yml
