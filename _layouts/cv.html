@@ -12,6 +12,19 @@ layout: default
 {% for item in sorted %}
 <p><span class="cv-list__year">{{ item.dates }}</span> <em>{{ item.job_title }}</em>, {{ item.workplace }}</p>
 {% endfor %}
+
+<h2>Awards</h2>
+{% assign current_year = 0 %}
+<div class="cv-list">
+{% for item in site.data.cv.awards %}
+  {% if current_year != item.year %}
+    <p class="cv-list__year">{{ item.year }}</p><p><em>{{ item.title }}</em>, {{ item.details }}</p>
+    {% assign current_year = item.year %}
+  {% else %}
+   <p> </p><p><em>{{ item.title }}</em>, {{ item.details }}</p>
+  {% endif %}
+{% endfor %}
+</div>
     
 <h2>Solo Exhibitions</h2>
 {% assign current_year = 0 %}
@@ -60,7 +73,7 @@ layout: default
     <p class="cv-list__year">{{ item.year }}</p><p><em>{{ item.title }}</em>, {{ item.place }}</p>
     {% assign current_year = item.year %}
   {% else %}
-   <p> </p><p><em>{{ item.details }}</em>, {{ item.place }}</p>
+   <p> </p><p><em>{{ item.title }}</em>, {{ item.place }}</p>
   {% endif %}
 {% endfor %}
 </div>
