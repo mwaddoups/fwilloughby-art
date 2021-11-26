@@ -13,3 +13,5 @@ fields:
 - type: file
   name: image
   label: image
+pages:
+- artiststatement.md
