@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Artist Statement
+image: "/assets/images/frances-portrait.jpg"
 
 ---
 Frances Willoughby is a British multidisciplinary artist based in Bristol who has exhibited both nationally and internationally, including the Mall Galleries and the Royal West of England Academy. In 2019 she completed an artist residency at the Helmut Gallery in Leipzig, Germany.
@@ -10,3 +11,11 @@ Willoughby’s practice includes sculpture, installation, and collage, subvertin
 Surrealism and psychoanalysis play a part in her practice as expressed in the work Bad Breast (2019); a soft sculpture series featuring embroidered, fabric breasts covered in acupuncture needles. This body of work draws on Melanie Klein’s theories on the psychoanalysis of children and her work on the object relations theory.
 
 A fogginess re-emerges within her collage work where found photographs inspire curiosity and provoke unanswerable questions. These strangers represent faded memories, an anonymous snapshot into another reality. After spending several years carefully cataloguing my own family photographs, I became more interested in collecting those I have no link to. Undefined and malleable their past unknown, they enable new narratives to be woven. These images have become an inexplicit memorial, conveying a sense of fragmentation and loss.
+
+<div markdown="0">
+{% responsive_image_block %}
+    path: {{ page.image | remove_first: "/" }}
+    class: "artist-profile"
+    sizes: "(max-width: 640px) 470px, (max-width: 960px) 710px, 70vw"
+{% endresponsive_image_block %}
+</div>

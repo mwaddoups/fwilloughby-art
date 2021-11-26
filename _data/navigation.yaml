@@ -2,15 +2,15 @@
   link: /
 - name: About
   links: 
-    - name: CV
-      link: /cv.html
     - name: Artist Statement
       link: /artiststatement.html
+    - name: CV
+      link: /cv.html
 - name: Installation
   link: /installation.html
 - name: Sculpture
   link: /sculpture.html
 - name: Collage
-  link: /photography.html
+  link: /collage.html
 - name: Contact
   link: /contact.html
