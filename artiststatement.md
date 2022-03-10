@@ -10,12 +10,12 @@ Willoughby’s practice includes sculpture, installation, and collage, subvertin
 
 Surrealism and psychoanalysis play a part in her practice as expressed in the work Bad Breast (2019); a soft sculpture series featuring embroidered, fabric breasts covered in acupuncture needles. This body of work draws on Melanie Klein’s theories on the psychoanalysis of children and her work on the object relations theory.
 
-A fogginess re-emerges within her collage work where found photographs inspire curiosity and provoke unanswerable questions. These strangers represent faded memories, an anonymous snapshot into another reality. After spending several years carefully cataloguing my own family photographs, I became more interested in collecting those I have no link to. Undefined and malleable their past unknown, they enable new narratives to be woven. These images have become an inexplicit memorial, conveying a sense of fragmentation and loss.
+A fogginess re-emerges within her collage work where found photographs inspire curiosity and provoke unanswerable questions. These strangers represent faded memories, an anonymous snapshot into another reality. After spending several years carefully cataloguing her own family photographs, she became more interested in collecting those she had no link to. Undefined and malleable their past unknown, they enable new narratives to be woven. These images have become an inexplicit memorial, conveying a sense of fragmentation and loss.
 
 <div markdown="0">
 {% responsive_image_block %}
-    path: {{ page.image | remove_first: "/" }}
-    class: "artist-profile"
-    sizes: "(max-width: 640px) 470px, (max-width: 960px) 710px, 70vw"
+path: {{ page.image | remove_first: "/" }}
+class: "artist-profile"
+sizes: "(max-width: 640px) 470px, (max-width: 960px) 710px, 70vw"
 {% endresponsive_image_block %}
 </div>
