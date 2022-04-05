@@ -209,13 +209,17 @@ artist_residencies:
   place: Helmut Gallery, Leipzig, Germany.
 awards:
 - year: 2021
-  date: 2021-09-30 23:00:00 +0000
-  title: The Eaton Trust, Artist Bursary.
+  date: 2021-07-31 23:00:00 +0000
+  title: Francis W Reckitt Arts Trust, Residency Funding.
   details: ''
 - year: 2021
   date: 2021-11-02T00:00:00.000+00:00
   title: Developing Your Creative Practice
   details: Arts Council England
+- year: 2021
+  date: 2021-09-30 23:00:00 +0000
+  title: The Eaton Trust, Artist Bursary.
+  details: ''
 - year: 2021
   date: 2021-09-29 23:00:00 +0000
   title: The Gane Trust, Artist Bursary.
