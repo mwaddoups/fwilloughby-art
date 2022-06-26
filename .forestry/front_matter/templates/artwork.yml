@@ -23,6 +23,15 @@ fields:
   config: {}
   label: Other Images
   description: All other images of the piece (for slider)
+- name: date
+  type: datetime
+  label: Date
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  description: Date (used for sorting, only year will be displayed)
 - type: select
   name: type
   config:
@@ -39,15 +48,6 @@ fields:
     required: false
   label: Media Type
   description: Media type e.g. Mixed Media, Fabric
-- name: date
-  type: datetime
-  label: Date
-  config:
-    required: false
-    date_format: 
-    time_format: 
-    display_utc: false
-  description: Date (used for sorting, only year will be displayed)
 - name: year
   type: number
   label: Year
