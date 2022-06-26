@@ -15,6 +15,16 @@ fields:
   name: title
   label: Title
   description: The name of the work.
+- name: year
+  type: number
+  label: Year
+  description: Year of artwork.
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - type: file
   name: image
   label: Main Image
@@ -48,16 +58,6 @@ fields:
     required: false
   label: Media Type
   description: Media type e.g. Mixed Media, Fabric
-- name: year
-  type: number
-  label: Year
-  description: Year of artwork.
-  default: 0
-  required: true
-  config:
-    min: 
-    max: 
-    step: 
 - name: description
   type: textarea
   default: ''
