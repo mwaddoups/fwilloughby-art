@@ -11,6 +11,6 @@ images:
 - "/assets/images/frances-willoughby_play-along_1.jpg"
 - "/assets/images/play-along-2.jpg"
 date: 2017-04-30T23:00:00.000+00:00
-exhibition: instillation view at Free Range, London, UK
+exhibition: Instillation view at Free Range, London, UK
 
 ---
