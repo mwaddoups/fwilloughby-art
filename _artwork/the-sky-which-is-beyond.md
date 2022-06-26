@@ -10,7 +10,7 @@ media_type: Stones, vinyl, thread, wood, wire, shell, mannequin hand and taxider
 date: 2022-03-31 23:00:00 +0000
 description: ''
 dimensions: 100 x 150 x 50
-exhibition: CURIO, St Annes House, Bristol, UK
+exhibition: CURIO, St Anne's House, Bristol, UK
 published: false
 
 ---
