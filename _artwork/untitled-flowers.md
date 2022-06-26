@@ -4,7 +4,7 @@ year: 2019
 title: Wallflower
 image: "/assets/images/dsc_0013.jpg"
 type: Collage
-media_type: Found Photography and Mixed Media
+media_type: Found photography and pressed flowers
 description: ''
 dimensions: ''
 exhibition: ''
