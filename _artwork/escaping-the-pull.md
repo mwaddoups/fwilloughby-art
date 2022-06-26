@@ -4,7 +4,7 @@ year: 2020
 title: Escaping the Pull
 image: "/assets/images/escaping-the-pull-3.jpg"
 type: Sculpture
-media_type: Mixed Media Soft Sculpture
+media_type: Fabric, stuffing and found wooden chair
 description: ''
 dimensions: 82 x 54 x 60 cm
 exhibition: ''
