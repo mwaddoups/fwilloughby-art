@@ -3,10 +3,10 @@ layout: artwork
 title: The Elephant in the Room
 image: "/assets/images/img_6874.jpg"
 type: Installation
-media_type: Installation
+media_type: Fabric and stuffing
 year: 2016
-exhibition: Installation in the dining room at the Russell-Cotes Gallery and Museum,
-  Bournemouth.
+exhibition: Installation view in the dining room at the Russell-Cotes Gallery and
+  Museum, Bournemouth
 description: ''
 dimensions: ''
 images:
