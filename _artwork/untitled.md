@@ -4,7 +4,7 @@ year: 2019
 title: Lost and Found
 image: "/assets/images/img_2019.jpg"
 type: Collage
-media_type: Mixed Media Collage
+media_type: Found photographs, thread and oxidised copper
 description: ''
 dimensions: 9 x 6 cm (each)
 exhibition: ''
