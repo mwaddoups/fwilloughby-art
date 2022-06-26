@@ -7,8 +7,8 @@ images:
 - "/assets/images/twins-2.jpg"
 - "/assets/images/twins.jpg"
 type: Sculpture
-media_type: Mixed Media
-date: 2021-08-18 23:00:00 +0000
+media_type: Fabric, stuffing, wire, paper mache and beads
+date: 2021-08-18T23:00:00.000+00:00
 description: ''
 dimensions: 30 x 40 x 110 cm
 exhibition: ''
