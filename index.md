@@ -2,7 +2,6 @@
 layout: landing
 title: Home
 images:
-- "/assets/images/the-sky-which-is-beyond-2.jpg"
 - "/assets/images/dsc_0013.jpg"
 - "/assets/images/frances-willoughby-breasts-2.jpg"
 - "/assets/images/play-along-2.jpg"
