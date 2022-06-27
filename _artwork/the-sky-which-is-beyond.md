@@ -2,11 +2,11 @@
 layout: artwork
 year: 2022
 title: The Sky Which is Beyond
-image: "/assets/images/the-sky-which-is-beyond-v2.jpg"
+image: "/assets/images/the-sky-which-is-beyond-2nd-edit.jpg"
 images:
+- "/assets/images/the-sky-which-is-beyond-2.jpg"
 - "/assets/images/the-sky-which-is-beyond-3.jpg"
 - "/assets/images/the-sky-which-is-beyond-4.jpg"
-- "/assets/images/the-sky-which-is-beyond-2.jpg"
 type: Installation
 media_type: Stones, vinyl, thread, wood, wire, shell, mannequin hand and taxidermy
   bird
