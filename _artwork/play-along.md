@@ -5,7 +5,15 @@ image: "/assets/images/dsc_6632-3.jpg"
 type: Installation
 media_type: Fabric, stuffing, wire, wood chip, fig trees and found furniture
 year: 2017
-description: ''
+description: "Play Along (2017) is an installation which has been displayed at Free
+  Range, London, UK and The Mall, London, UK. The installation was displayed like
+  a stage set of a domestic living space with distinct differences: wood chips cover
+  the floor, a number of fig trees line the edge of the work and several bodies emerge
+  from furniture which occupies the space. \n\nPlay Along explores the polarity of
+  order and chaos, domestic and wild, and personal and public. The installation acts
+  as a snapshot into the immediate aftermath of experiencing the unexpected loss of
+  a loved one. The contorted bodies - modelled after the artist's own body - represent
+  different emotional states she experienced: confusion, anger and sadness. "
 images:
 - "/assets/images/img_0007.JPG"
 - "/assets/images/frances-willoughby_play-along_1.jpg"
