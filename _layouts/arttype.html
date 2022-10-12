@@ -3,7 +3,8 @@ layout: default
 ---
 
 <div class="art-list">
-{% for artwork in site.artwork %}
+{% assign sorted = site.artwork | sort: "date" | reverse %}
+{% for artwork in sorted %}
   {% if artwork.type == page.title %}
     <a href="{{ artwork.url }}">
       <figure class="art-list__figure">
