@@ -1,10 +1,14 @@
 .art-description  {
+    &__description {
+        margin: 2em;
+    }
+
     &__title {
-        margin-bottom: 5px;
+        display: inline;
     }
 
     &__metadata {
-        margin-top: 3px;
-        margin-bottom: 3px;
+        display: inline;
+        margin-left: 1em;
     }
 }

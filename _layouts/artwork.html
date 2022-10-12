@@ -17,15 +17,11 @@ layout: default
   {% endfor %}
 </div>
 
-<div>
+<div class="art-description__description">
     <h2 class="art-description__title">{{ page.title }}</h2>
-    {% if page.media_type %}
-    <h4 class="art-description__metadata"> {{ page.media_type }} </h4>
-    {% endif %}
-    {% if page.dimensions %}
-    <h4 class="art-description__metadata"> {{ page.dimensions }} </h4>
-    {% endif %}
-    <h4 class="art-description__metadata">{{ page.year }}</h4>
+    <h4 class="art-description__metadata">
+    {{ page.year }}{% if page.media_type %}, {{ page.media_type }}{% endif %}{% if page.dimensions %}, {{ page.dimensions }}{% endif %}
+    </h4>
     <p>{{ page.exhibition }}</p>
     <p>{{ page.description }}</p>
 </div>
