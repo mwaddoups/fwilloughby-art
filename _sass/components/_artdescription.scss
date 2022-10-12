@@ -1,5 +1,5 @@
 .art-description  {
-    &__description {
+    &__titlebox {
         margin: 2em;
     }
 
@@ -10,5 +10,9 @@
     &__metadata {
         display: inline;
         margin-left: 1em;
+    }
+
+    &__description {
+        white-space: pre-line;
     }
 }
