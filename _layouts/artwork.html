@@ -18,10 +18,12 @@ layout: default
 </div>
 
 <div class="art-description__titlebox">
-    <h2 class="art-description__title">{{ page.title }}</h2>
-    <h4 class="art-description__metadata">
-    {{ page.year }}{% if page.media_type %}, {{ page.media_type }}{% endif %}{% if page.dimensions %}, {{ page.dimensions }}{% endif %}
-    </h4>
+    <div class="art-description__metadatabox">
+      <h2 class="art-description__title">{{ page.title }},</h2>
+      <h4 class="art-description__metadata">
+      {{ page.year }}{% if page.media_type %}, {{ page.media_type }}{% endif %}{% if page.dimensions %}, {{ page.dimensions }}{% endif %}
+      </h4>
+    </div>
     <p>{{ page.exhibition }}</p>
     <p class="art-description__description">{{ page.description }}</p>
 </div>
