@@ -3,7 +3,7 @@ layout: artwork
 title: Rupture
 image: "/assets/images/frances-willoughby_rupture.jpg"
 type: Installation
-media_type: Fabric, stuffing, wire, stones, net and enamel bowl
+media_type: fabric, stuffing, wire, stones, net and enamel bowl
 year: 2017
 description: 'Rupture (2017) was an installation on display at Showroom 1600 in Bournemouth,
   UK. Rupture represents the feeling of trauma when beginning cycles of change. The
@@ -14,6 +14,6 @@ description: 'Rupture (2017) was an installation on display at Showroom 1600 in 
   bodies had become structurally integral to the room it was displayed in – as if
   by removing them the walls would simply fall in. '
 date: 2017-02-01T00:00:00.000+00:00
-exhibition: Instillation view at Showroom 1600, Bournemouth, UK
+exhibition: Instillation view at Showroom 1600, Bournemouth, UK.
 
 ---
