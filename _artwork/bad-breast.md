@@ -4,9 +4,9 @@ year: 2019
 title: Bad Breast
 image: "/assets/images/frances-willoughby-breasts-2.jpg"
 type: Sculpture
-media_type: Fabric, stuffing, acupuncture needles, vintage dollies and beads
+media_type: fabric, stuffing, acupuncture needles, vintage dollies and beads
 description: ''
-dimensions: Each measures approx. 20 x 20 cm
+dimensions: each measures approx. 20 x 20 cm
 exhibition: ''
 images:
 - "/assets/images/frances-willoughby-breasts-3.jpg"
