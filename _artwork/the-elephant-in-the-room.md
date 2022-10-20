@@ -3,10 +3,10 @@ layout: artwork
 title: The Elephant in the Room
 image: "/assets/images/img_6874.jpg"
 type: Installation
-media_type: Fabric and stuffing
+media_type: fabric, duct tape and stuffing
 year: 2016
 exhibition: Installation view in the dining room at the Russell-Cotes Gallery and
-  Museum, Bournemouth
+  Museum, Bournemouth, UK.
 description: 'The Elephant in the Room (2016) was part of an exhibition titled SÉANCE
   : A Family Collection Revisited in collaboration with Russell Cotes Museum in Bournemouth,
   UK. This installation featured a full size cast of the artist’s body under a tablecloth
