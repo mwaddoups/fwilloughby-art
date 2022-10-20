@@ -5,7 +5,7 @@ education:
 - school: Arts University Bournemouth
   degree: BA (hons) Fine Art (First Class).
 work:
-- dates: "2021"
+- dates: 2021-2022
   workplace: PAPER Arts, Bristol, UK.
   job_title: Trustee
 - dates: 2018 - 2020
@@ -13,11 +13,11 @@ work:
   job_title: Assistant
 solo_exhibitions:
 - year: 2022
-  date: 2022-04-01 23:00:00 +0000
+  date: 2022-04-01T23:00:00.000+00:00
   title: The Sky Which Is Beyond
   place: CURIO, Bristol, UK.
 - year: 2021
-  date: 2021-12-04 00:00:00 +0000
+  date: 2021-12-04T00:00:00.000+00:00
   title: Memories Go Astray
   place: TOD Gallery, Kent, UK.
 - year: 2019
@@ -30,11 +30,11 @@ solo_exhibitions:
   date: 
 group_exhibitions:
 - year: 2022
-  date: 2022-03-06 00:00:00 +0000
+  date: 2022-03-06T00:00:00.000+00:00
   title: Alone/Together
   place: The Station, Bristol, UK.
 - year: 2021
-  date: 2021-12-01 00:00:00 +0000
+  date: 2021-12-01T00:00:00.000+00:00
   title: Reignite Festival
   place: The Island, Bristol, UK.
 - year: 2021
@@ -161,7 +161,7 @@ curatorial_projects:
   date: 
 publications:
 - year: 2021
-  date: 2021-12-08 00:00:00 +0000
+  date: 2021-12-08T00:00:00.000+00:00
   details: 'Artful Memories: How to create unique art with old photographs, Jane Chipp
     and Jack Ravi, (2021), December'
 - year: 2021
@@ -207,14 +207,14 @@ awards:
   title: Developing Your Creative Practice
   details: Arts Council England.
 - year: 2021
-  date: 2021-09-30 23:00:00 +0000
+  date: 2021-09-30T23:00:00.000+00:00
   title: The Eaton Trust, Artist Bursary
   details: ''
 - year: 2021
-  date: 2021-07-31 23:00:00 +0000
+  date: 2021-07-31T23:00:00.000+00:00
   title: Francis W Reckitt Arts Trust, Residency Funding
   details: ''
 - year: 2021
-  date: 2021-09-29 23:00:00 +0000
+  date: 2021-09-29T23:00:00.000+00:00
   title: The Gane Trust, Artist Bursary
   details: ''
