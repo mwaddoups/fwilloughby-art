@@ -5,8 +5,8 @@ title: Between the Lines
 image: "/assets/images/between-the-lines-2nd-edit.jpg"
 images: []
 type: Collage
-media_type: Found photograph and thread
-date: 2022-05-31 23:00:00 +0000
+media_type: found photograph and thread
+date: 2022-05-31T23:00:00.000+00:00
 description: ''
 dimensions: 9 x 11 cm
 exhibition: ''
