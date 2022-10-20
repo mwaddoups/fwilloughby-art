@@ -8,9 +8,8 @@ images:
 - "/assets/images/the-sky-which-is-beyond-3.jpg"
 - "/assets/images/the-sky-which-is-beyond-4.jpg"
 type: Installation
-media_type: Stones, vinyl, thread, wood, wire, shell, mannequin hand and taxidermy
-  bird
-date: 2022-03-31 23:00:00 +0000
+media_type: stones, vinyl, wood, wire, shell, mannequin hand and taxidermy bird
+date: 2022-03-31T23:00:00.000+00:00
 description: "The Sky Which Is Beyond (2022) features a black rectangular frame that
   sits within the glass vitrine, small stones fill the base of the receptacle. Within
   this space three objects – a mannequin hand, a taxidermy bird and a conch shell
@@ -24,7 +23,7 @@ description: "The Sky Which Is Beyond (2022) features a black rectangular frame 
   the visual aesthetic. The Sky Which Is Beyond draws on the rich history of the Wunderkammer
   or a cabinet of curiosities that typically stored collections of unusual objects
   and artefacts. "
-dimensions: 100 x 150 x 50
-exhibition: Installation view at CURIO, St Anne's House, Bristol, UK
+dimensions: 100 x 150 x 50cm
+exhibition: Installation view at CURIO, St Anne's House, Bristol, UK.
 
 ---
