@@ -3,7 +3,7 @@ layout: artwork
 title: Undone
 image: "/assets/images/undone-edit.jpg"
 type: Collage
-media_type: Collage
+media_type: found image collage
 year: 2016
 description: The original image was found under a bed hidden away. It has been covered
   with fragments of other bodies to create a monster, a truer representation of the
