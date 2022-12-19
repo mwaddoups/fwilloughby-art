@@ -10,10 +10,10 @@ images:
 type: Installation
 media_type: stones, vinyl, wood, wire, shell, mannequin hand and taxidermy bird
 date: 2022-03-31T23:00:00.000+00:00
-description: "The Sky Which Is Beyond exhibited Bricks, St Annes House, Bristol (2022)
-  A black rectangular frame sits within the glass vitrine, small stones fill the base
-  of the receptacle. Within this space three objects – a mannequin hand, a taxidermy
-  bird and a conch shell are suspended in red semi-transparent vinyl compartments.
+description: "The Sky Which Is Beyond exhibited at Bricks, St Annes House, Bristol
+  (2022) A black rectangular frame sits within the glass vitrine, small stones fill
+  the base of the receptacle. Within this space three objects – a mannequin hand,
+  a taxidermy bird and a conch shell are suspended in red semi-transparent vinyl compartments.
   \n \nThe assemblage signifies the archive as a repository of memory, unstable and
   partial. It is an exploration into the counter-archive where the objects are fragments
   of a dreamscape, preserved, arranged, and classified. It comments on the narrative
