@@ -4,7 +4,6 @@ title: Artist Statement
 image: "/assets/images/frances-portrait.jpg"
 
 ---
-
 <div markdown="0">
 {% responsive_image_block %}
 path: {{ page.image | remove_first: "/" }}
@@ -13,10 +12,18 @@ sizes: "(max-width: 640px) 470px, (max-width: 960px) 710px, 70vw"
 {% endresponsive_image_block %}
 </div>
 
-Frances Willoughby is a British multidisciplinary artist based in Bristol who has exhibited both nationally and internationally, including the Mall Galleries and the Royal West of England Academy. In 2019 she completed an artist residency at the Helmut Gallery in Leipzig, Germany.
+Frances Willoughby’s work is concerned with the metamorphosis of the human form. Her soft sculptures - often based on her own body - are surreal hybrid beings. The atmosphere and imagery from the films she viewed throughout her childhood have influenced her practice, including David Lynch’s _Eraserhead_ (1977) and Jan Svankmajer’s _Alice_ (1988). The human condition: Emotions, memories and chance feed her practice as Willoughby seeks to explore the dualism of the familiar and the unfamiliar.
 
-Willoughby’s practice includes sculpture, installation, and collage, subverting the traditional and manipulating reality. Her work is figurative and aims to distort our preconceptions of the familiar through the manipulation of nostalgic objects and traditional feminine craft. Sewing and textiles play a large part in the creation of mixed media soft-sculptures. Within this series, she has adapted toy patterns to create life-sized female bodies which draw on her fascination with dolls. These self-contained forms are autobiographical and stem from relationships, anxiety, and conflict. A key piece from this body of work is ‘Escaping the Pull’ (2020) a soft-sculpture she created in response to her struggle with catastrophic thinking due to a sense of isolation during the pandemic. With each piece of work, she provokes a narrative using a series of symbols that are often nostalgic objects, inviting the viewer to reflect on their own history. The work acknowledges the greyness and fog of emotions, using conflicting materials of textiles, wire and pins to convey the uncertainty and instabilities of life.
+Sewing and textiles are central in the creation of her mixed media soft sculptures. Willoughby has reconstructed doll patterns from her childhood toy-making books to create a series of life size self portraits. The autobiographical forms illustrate her inner thoughts, fears and desires. The act of physically doing and undoing the stitches becomes a method of healing from personal trauma and a ritual to navigate the purpose of the work itself.
 
-Surrealism and psychoanalysis play a part in her practice as expressed in the work Bad Breast (2019); a soft sculpture series featuring embroidered, fabric breasts covered in acupuncture needles. This body of work draws on Melanie Klein’s theories on the psychoanalysis of children and her work on the object relations theory.
+Willoughby considers the body as an unresolved mystery. “The body is like a sentence that invites us to rearrange it, so that its real meaning becomes clear through a series of endless anagrams” (Hans Bellmer, 1902-1975). Elements of the human body can become whole in their own right. They are separate from the rest of their form, yet complete and can be rearranged, multiplied and distorted, creating a hybrid creature occupying a space between life and death.
 
-A fogginess re-emerges within her collage work where found photographs inspire curiosity and provoke unanswerable questions. These strangers represent faded memories, an anonymous snapshot into another reality. After spending several years carefully cataloguing her own family photographs, she became more interested in collecting those she had no link to. Undefined and malleable their past unknown, they enable new narratives to be woven. These images have become an inexplicit memorial, conveying a sense of fragmentation and loss.
+Surrealism and psychoanalysis have informed the theoretical context of Willoughby’s practice. Her work examines ‘Repetition compulsion’ which is a desire to repeat traumatic events. This manifests through the repetition of the artist's part-body, such as legs, hands and breasts. This compulsion to revisit, repeat and rework the human form represents the tendency to repeat destructive behavioural patterns as they feel familiar.
+
+_Bad Breast_ (2019); a set of embroidered, soft sculpture, fabric breasts covered in acupuncture needles. This assemblage draws on Melanie Klein’s theories on the psychoanalysis of children and her work on the object relations theory. The needles allude to healing as well as self-destruction.
+
+Found objects and images are scattered throughout Willoughby’s practice. As a collector of ephemera including photographs, packaging and toys she is drawn to the history and aesthetics of found things. Reminiscent of the Surrealists, there is an element of chance that comes into play as she allows the materials to guide the direction of the work through a process in which the objects are transformed and rebuilt.
+
+Another thread of Willoughby’s practice is her site-specific installations. Within these projects domestic interiors are created that reflect physiological landscapes; the scale is expanded and the intensity of the work becomes inescapable. This is evident in _Play Along_ (2017); an installation created during the aftermath of a family tragedy. The work was displayed like a stage set of a domestic living space with distinct differences: wood chips cover the floor, a number of fig trees line the edge of the work and several bodies emerge from the furniture which occupies the space.
+
+Willoughby has exhibited both nationally and internationally, including the Mall Galleries and the Royal West of England Academy. In 2021, she received a grant from Arts Council England for her project _The Spaces in Between_.
