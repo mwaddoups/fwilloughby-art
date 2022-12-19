@@ -15,9 +15,7 @@ description: 'The Elephant in the Room (2016) was part of an exhibition titled S
   the unpublicised, lesser-known history of the Russel Cotes family which included
   shady politics, questionable financial dealings and angry mobs burning effigies.
   It also comments on the instabilities of the Russell-Cotes family and the legacy
-  they left behind.
-
-  '
+  they left behind.'
 dimensions: ''
 images:
 - "/assets/images/the-elephant-in-the-room.jpg"
