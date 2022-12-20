@@ -10,19 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     name: Build with jekyll and deploy to netlify
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '2.6'
-      - uses: actions/cache@v2
-        with:
-          path: vendor/bundle
-          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-gems-
-      - run: gem install bundler
-      - run: bundle config path vendor/bundle
-      - run: bundle install --path vendor/bundle
+          bundler-cache: true
       - run: bundle exec jekyll build
       - name: Publish
         uses: netlify/actions/cli@master
