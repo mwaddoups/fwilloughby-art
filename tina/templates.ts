@@ -3,18 +3,15 @@ export function artist_statementFields() {
   return [
     {
       type: "string",
-      name: "layout",
-      label: "layout",
-    },
-    {
-      type: "string",
       name: "title",
-      label: "title",
+      label: "Title",
+      isTitle: true,
+      required: true,
     },
     {
       type: "image",
       name: "image",
-      label: "image",
+      label: "Profile Image",
     },
   ] as TinaField[];
 }
@@ -325,6 +322,8 @@ export function frontpageFields() {
       type: "string",
       name: "title",
       label: "title",
+      isTitle: true,
+      required: true,
     },
     {
       type: "image",

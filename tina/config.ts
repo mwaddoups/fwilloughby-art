@@ -322,6 +322,24 @@ export default defineConfig({
             fields: [
               ...frontpageFields(),
             ]
+          },
+          {
+            name: "artheader",
+            label: "Art Header",
+            fields: [
+              {
+                  type: "string",
+                  name: "title",
+                  label: "title",
+                  isTitle: true,
+                  required: true,
+                },
+                {
+                  type: "image",
+                  name: "headerimage",
+                  label: "Header Image",
+                },
+            ]
           }
         ]
       },
