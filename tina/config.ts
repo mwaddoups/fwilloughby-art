@@ -5,11 +5,8 @@ import { cvFields } from "./templates";
 import { frontpageFields } from "./templates";
 import { navigationFields } from "./templates";
 
-// Your hosting provider likely exposes this as an environment variable
-const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
-
 export default defineConfig({
-  branch,
+  branch: "master",
   clientId: "b760babf-27ce-489a-b43c-ce87aa72467d", // Get this from tina.io
   token: "fe47bd75e863ad1de45112a37a1a721c62b29eb4", // Get this from tina.io
   client: { skip: true },
