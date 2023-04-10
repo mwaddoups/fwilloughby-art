@@ -292,14 +292,39 @@ export default defineConfig({
         format: "md",
         label: "Pages",
         name: "pages",
-        path: "./",
+        path: "_pages",
         match: {
-          include: "artiststatement.md"
+          include: "*",
         },
-        fields: [
-          ...artist_statementFields(),
+        ui: {
+          allowedActions: {
+            create: false,
+            delete: false,
+          },
+        },
+        templates: [
+          {
+            name: "artist_statement",
+            label: "Artist Statment",
+            fields: [
+              {
+                type: 'rich-text',
+                label: 'Post Body',
+                name: 'body',
+                isBody: true,
+              },
+              ...artist_statementFields(),
+            ]
+          },
+          {
+            name: "frontpage",
+            label: "Front Page",
+            fields: [
+              ...frontpageFields(),
+            ]
+          }
         ]
-      }
+      },
     ],
   },
 });

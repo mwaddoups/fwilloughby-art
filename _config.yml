@@ -5,6 +5,8 @@ title: "Frances Willoughby"
 collections:
     artwork:
         output: true
+    pages:
+        output: true
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
 plugins:
     - jekyll-responsive-image

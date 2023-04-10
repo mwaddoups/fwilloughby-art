@@ -3,6 +3,7 @@ layout: default
 title: Artist Statement
 image: /assets/images/frances-portrait.jpg
 _template: artist_statement
+permalink: /artiststatement.html
 ---
 
 <div markdown="0">

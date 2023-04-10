@@ -9,5 +9,6 @@ images:
   - /assets/images/woman-house-2-jpeg.jpg
   - /assets/images/frances-willoughby_the-failure-of-pretence-4.jpg
 _template: frontpage
+permalink: /
 ---
 
