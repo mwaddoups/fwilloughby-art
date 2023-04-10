@@ -17,11 +17,13 @@ jobs:
           node-version: '16'
           cache: 'npm'
           cache-dependency-path: '**/.github/workflows/*.yml'
+      - name: Install Tina dependences
+        run: npm install
       - name: Build TinaCMS
         env:
           TINA_PUBLIC_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
           TINA_TOKEN: ${{ secrets.TINA_TOKEN }}
-        run: npx @tinacms/cli@latest build
+        run: npx tinacms build
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '2.6'
