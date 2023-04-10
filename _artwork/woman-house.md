@@ -11,5 +11,6 @@ exhibition: ''
 images: []
 date: 2020-06-30T23:00:00.000Z
 _template: artwork
+draft: false
 ---
 

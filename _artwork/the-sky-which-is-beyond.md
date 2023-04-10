@@ -33,5 +33,6 @@ description: >-
 dimensions: 100 x 150 x 50cm
 exhibition: 'Installation view at CURIO, St Anne''s House, Bristol, UK.'
 _template: artwork
+draft: false
 ---
 

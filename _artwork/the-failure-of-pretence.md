@@ -13,5 +13,6 @@ images:
   - /assets/images/safe-place-fabric-stuffing-wire-2016.jpg
 date: 2017-03-01T00:00:00.000Z
 _template: artwork
+draft: false
 ---
 

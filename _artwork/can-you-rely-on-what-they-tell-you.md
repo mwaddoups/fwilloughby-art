@@ -11,5 +11,6 @@ description: ''
 dimensions: 30 x 42 cm
 exhibition: ''
 _template: artwork
+draft: false
 ---
 

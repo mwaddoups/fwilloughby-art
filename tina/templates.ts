@@ -24,6 +24,8 @@ export function artworkFields() {
       type: "string",
       name: "title",
       label: "Title",
+      required: true,
+      isTitle: true,
       ui: {
         description: "The name of the work",
       },
@@ -61,6 +63,7 @@ export function artworkFields() {
       type: "string",
       name: "type",
       label: "Type of Work",
+      required: true,
       options: ["Installation", "Sculpture", "Collage"],
     },
     {

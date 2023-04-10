@@ -14,5 +14,6 @@ images:
   - /assets/images/dsc_0004.jpg
 date: 2019-07-31T23:00:00.000Z
 _template: artwork
+draft: false
 ---
 

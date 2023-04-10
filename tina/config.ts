@@ -283,6 +283,7 @@ export default defineConfig({
             name: "draft",
             label: "Draft",
             type: "boolean",
+            required: true,
           },
           ...artworkFields(),
         ],
