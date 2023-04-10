@@ -12,9 +12,8 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: Install node, ensure npx uses a cache
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
-          node-version: '14'
           cache: 'npm'
           cache-dependency-path: '**/.github/workflows/*.yml'
       - name: Build TinaCMS
