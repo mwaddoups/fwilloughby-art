@@ -10,7 +10,7 @@ const branch = process.env.HEAD || process.env.VERCEL_GIT_COMMIT_REF || "main";
 
 export default defineConfig({
   branch,
-  clientId: "b760babf-27ce-489a-b43c-ce87aa72467d", // Get this from tina.io
+  clientId: "b760babf-27ce-489a-b43c-ce87aa72467d", // Get this from tina.io
   token: "fe47bd75e863ad1de45112a37a1a721c62b29eb4", // Get this from tina.io
   client: { skip: true },
   build: {
@@ -19,7 +19,7 @@ export default defineConfig({
   },
   media: {
     tina: {
-      mediaRoot: "",
+      mediaRoot: "assets/images",
       publicFolder: "./",
     },
   },
@@ -45,6 +45,9 @@ export default defineConfig({
             name: "education",
             label: "Education",
             list: true,
+            ui: {
+              itemProps: (item) => { return { label: item?.school } },
+            },
             fields: [
               {
                 type: "string",
@@ -63,6 +66,9 @@ export default defineConfig({
             name: "work",
             label: "Work",
             list: true,
+            ui: {
+              itemProps: (item) => { return { label: item?.workplace } },
+            },
             fields: [
               {
                 type: "string",
@@ -86,6 +92,9 @@ export default defineConfig({
             name: "artist_residencies",
             label: "Artist Residencies",
             list: true,
+            ui: {
+              itemProps: (item) => { return { label: item?.place } },
+            },
             fields: [
               {
                 type: "number",
@@ -114,6 +123,9 @@ export default defineConfig({
             name: "solo_exhibitions",
             label: "Solo Exhibitions",
             list: true,
+            ui: {
+              itemProps: (item) => { return { label: item?.title } },
+            },
             fields: [
               {
                 type: "number",
@@ -142,6 +154,9 @@ export default defineConfig({
             name: "group_exhibitions",
             label: "Group Exhibitions",
             list: true,
+            ui: {
+              itemProps: (item) => { return { label: item?.title } },
+            },
             fields: [
               {
                 type: "number",
@@ -169,6 +184,9 @@ export default defineConfig({
             type: "object",
             name: "publications",
             label: "Publications",
+            ui: {
+              itemProps: (item) => { return { label: item?.details } },
+            },
             list: true,
             fields: [
               {
@@ -193,6 +211,9 @@ export default defineConfig({
             name: "curatorial_projects",
             label: "Curatorial Projects",
             list: true,
+            ui: {
+              itemProps: (item) => { return { label: item?.title } },
+            },
             fields: [
               {
                 type: "number",
@@ -221,6 +242,9 @@ export default defineConfig({
             name: "awards",
             label: "Awards",
             list: true,
+            ui: {
+              itemProps: (item) => { return { label: item?.title } },
+            },
             fields: [
               {
                 type: "number",
@@ -256,11 +280,9 @@ export default defineConfig({
         },
         fields: [
           {
-            type: "rich-text",
-            name: "body",
-            label: "Body of Document",
-            description: "This is the markdown body",
-            isBody: true,
+            name: "draft",
+            label: "Draft",
+            type: "boolean",
           },
           ...artworkFields(),
         ],

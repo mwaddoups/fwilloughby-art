@@ -22,14 +22,11 @@ export function artworkFields() {
   return [
     {
       type: "string",
-      name: "layout",
-      label: "layout",
-      required: true,
-    },
-    {
-      type: "string",
       name: "title",
       label: "Title",
+      ui: {
+        description: "The name of the work",
+      },
     },
     {
       type: "image",
@@ -41,16 +38,24 @@ export function artworkFields() {
       name: "images",
       label: "Other Images",
       list: true,
+      ui: {
+        description: "All other images of the piece (for slider)",
+      },
     },
     {
       type: "number",
       name: "year",
       label: "Year",
+      required: true,
     },
     {
       type: "datetime",
       name: "date",
       label: "Date",
+      required: false,
+      ui: {
+        description: "Date used for sorting, only year will be displayed",
+      },
     },
     {
       type: "string",
@@ -75,11 +80,26 @@ export function artworkFields() {
       type: "string",
       name: "dimensions",
       label: "Dimensions",
+      ui: {
+        description: "Dimensions of piece (can be blank)",
+      },
     },
     {
       type: "string",
       name: "exhibition",
       label: "Exhibition",
+      ui: {
+        description: "Relevant exhibition for work (will appear above description)",
+      },
+    },
+    {
+      type: "string",
+      name: "layout",
+      label: "Page Layout",
+      required: true,
+      ui: {
+        description: "Ignore this - it should be 'artwork' unless you know better",
+      },
     },
   ] as TinaField[];
 }
