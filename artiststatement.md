@@ -1,9 +1,10 @@
 ---
 layout: default
 title: Artist Statement
-image: "/assets/images/frances-portrait.jpg"
-
+image: /assets/images/frances-portrait.jpg
+_template: artist_statement
 ---
+
 <div markdown="0">
 {% responsive_image_block %}
 path: {{ page.image | remove_first: "/" }}

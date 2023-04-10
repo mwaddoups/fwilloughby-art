@@ -8,3 +8,5 @@ _site/
 .netlify
 vendor/
 assets/resized/
+
+node_modules
