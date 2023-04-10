@@ -11,6 +11,12 @@ jobs:
     name: Build with jekyll and deploy to netlify
     steps:
       - uses: actions/checkout@v3
+      - name: Install node, ensure npx uses a cache
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+          cache: 'npm'
+          cache-dependency-path: '**/.github/workflows/*.yml'
       - name: Build TinaCMS
         env:
           TINA_PUBLIC_CLIENT_ID: ${{ secrets.TINA_PUBLIC_CLIENT_ID }}
