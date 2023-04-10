@@ -15,6 +15,6 @@ description: "Rupture (2017)  an installation displayed at Showroom 1600 in Bour
   them the walls would simply fall in. "
 date: 2017-02-01T00:00:00.000+00:00
 exhibition: Instillation view at Showroom 1600, Bournemouth, UK.
-draft: false
+published: true
 
 ---

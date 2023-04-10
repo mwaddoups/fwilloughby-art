@@ -11,7 +11,7 @@ exhibition: ''
 images:
   - /assets/images/twins-2-jpeg.jpg
 date: 2019-08-31T23:00:00.000Z
-draft: true
+published: false
 _template: artwork
 ---
 

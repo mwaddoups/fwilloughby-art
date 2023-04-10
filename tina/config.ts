@@ -280,14 +280,26 @@ export default defineConfig({
         },
         fields: [
           {
-            name: "draft",
-            label: "Draft",
+            name: "published",
+            label: "Published",
             type: "boolean",
             required: true,
           },
           ...artworkFields(),
         ],
       },
+      {
+        format: "md",
+        label: "Pages",
+        name: "pages",
+        path: "./",
+        match: {
+          include: "artiststatement.md"
+        },
+        fields: [
+          ...artist_statementFields(),
+        ]
+      }
     ],
   },
 });

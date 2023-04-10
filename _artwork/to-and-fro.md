@@ -10,7 +10,7 @@ date: 2021-08-23T23:00:00.000Z
 description: ''
 dimensions: 90 x 70 x 70 cm
 exhibition: ''
-draft: true
+published: false
 _template: artwork
 ---
 

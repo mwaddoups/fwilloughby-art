@@ -11,6 +11,6 @@ exhibition: ''
 images: []
 date: 2016-01-03T00:00:00.000Z
 _template: artwork
-draft: false
+published: true
 ---
 

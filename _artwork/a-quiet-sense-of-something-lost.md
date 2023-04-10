@@ -13,6 +13,6 @@ exhibition: ''
 images: []
 date: 2018-01-02T00:00:00.000Z
 _template: artwork
-draft: false
+published: true
 ---
 

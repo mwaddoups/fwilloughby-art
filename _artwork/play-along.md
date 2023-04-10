@@ -20,6 +20,6 @@ images:
 - "/assets/images/play-along-2.jpg"
 date: 2017-04-30T23:00:00.000+00:00
 exhibition: Instillation view at Free Range, London, UK.
-draft: false
+published: true
 
 ---

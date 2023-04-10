@@ -13,6 +13,6 @@ images:
   - /assets/images/escaping-the-pull-2.jpg
 date: 2020-07-31T23:00:00.000Z
 _template: artwork
-draft: false
+published: true
 ---
 

@@ -11,6 +11,6 @@ description: ''
 dimensions: 9 x 11 cm
 exhibition: ''
 _template: artwork
-draft: false
+published: true
 ---
 

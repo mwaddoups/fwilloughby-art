@@ -24,6 +24,6 @@ images:
   - /assets/images/elephant-1.jpg
 date: 2016-09-30T23:00:00.000Z
 _template: artwork
-draft: false
+published: true
 ---
 
