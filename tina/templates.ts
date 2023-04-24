@@ -61,7 +61,7 @@ export function artworkFields() {
       name: "type",
       label: "Type of Work",
       required: true,
-      options: ["Installation", "Sculpture", "Collage"],
+      options: ["Installation", "Sculpture", "Collage", "Photography", "Wall Hangings"],
     },
     {
       type: "string",
