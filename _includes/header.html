@@ -22,7 +22,8 @@
               {% if active_arttype.size > 0 %} > <span class="navbar__link navbar__link--active">{{ active_arttype.first.title }}</span> {% endif %}
             </span>
             <ul class="navbar__dropdown">
-              {% for arttype in site.arttype %}
+              {% assign sorted_arttype = site.arttype | sort: "order" %}
+              {% for arttype in sorted_arttype %}
                 <li class="navbar__dropdownitem">
                   <a href="{{ arttype.url }}" class="navbar__link {% if page.url == arttype.url %}navbar__link--active{% endif %}">{{ arttype.title }}</a>
                 </li>
