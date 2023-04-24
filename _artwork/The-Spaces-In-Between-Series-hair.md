@@ -1,4 +1,5 @@
 ---
+layout: artwork
 published: true
 title: The Spaces In Between Series (hair)
 image: /assets/images/Frances_Willoughby_06.jpg

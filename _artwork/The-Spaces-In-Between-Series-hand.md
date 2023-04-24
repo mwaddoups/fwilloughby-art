@@ -1,4 +1,5 @@
 ---
+layout: artwork
 published: true
 title: The Spaces In Between Series (hand)
 image: /assets/images/Frances_Willoughby_04.jpg

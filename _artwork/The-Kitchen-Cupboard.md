@@ -1,4 +1,5 @@
 ---
+layout: artwork
 published: true
 title: The Kitchen Cupboard
 image: /assets/images/Frances_Willoughby_03.jpg

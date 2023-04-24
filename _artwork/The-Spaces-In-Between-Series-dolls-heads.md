@@ -1,4 +1,5 @@
 ---
+layout: artwork
 published: true
 title: The Spaces In Between Series (dolls heads)
 image: /assets/images/Frances_Willoughby_08.jpg

@@ -92,6 +92,14 @@ export function artworkFields() {
         description: "Relevant exhibition for work (will appear above description)",
       },
     },
+    {
+      type: "string",
+      name: "layout",
+      label: "layout",
+      ui: {
+        description: "Leave this as 'artwork'",
+      },
+    },
   ] as TinaField[];
 }
 export function cvFields() {

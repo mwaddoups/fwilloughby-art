@@ -1,4 +1,5 @@
 ---
+layout: artwork
 published: true
 title: The Spaces In Between (reaching for shells)
 image: /assets/images/Frances_Willoughby_05.jpg

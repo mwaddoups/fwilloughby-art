@@ -1,4 +1,5 @@
 ---
+layout: artwork
 published: true
 title: Chaos
 image: /assets/images/DSCF4807.jpg

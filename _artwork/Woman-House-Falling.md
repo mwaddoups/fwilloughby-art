@@ -1,4 +1,5 @@
 ---
+layout: artwork
 published: true
 title: Woman House (Falling)
 image: /assets/images/Frances_Willoughby_02.jpg

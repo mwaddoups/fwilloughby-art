@@ -1,4 +1,5 @@
 ---
+layout: artwork
 published: true
 title: The Spaces In Between Series (kitchen sink)
 image: /assets/images/Frances_Willoughby_09.jpg

@@ -1,4 +1,5 @@
 ---
+layout: artwork
 published: true
 title: The Spaces In Between Series (bubbles)
 image: /assets/images/Frances_Willoughby_10.jpg

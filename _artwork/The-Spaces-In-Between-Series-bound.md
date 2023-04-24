@@ -1,4 +1,5 @@
 ---
+layout: artwork
 published: true
 title: The Spaces In Between Series (bound)
 image: /assets/images/Frances_Willoughby_11.jpg

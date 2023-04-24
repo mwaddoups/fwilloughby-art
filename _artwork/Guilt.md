@@ -1,4 +1,5 @@
 ---
+layout: artwork
 published: true
 title: Guilt
 image: /assets/images/DSCF4806.jpg
