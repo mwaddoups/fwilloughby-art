@@ -9,6 +9,7 @@ date: 2023-01-09T00:00:00.000Z
 type: Sculpture
 media_type: 'fabric, stuffing, laces, beads, pins and sawdust'
 dimensions: 14 x 12 x 7cm
-layout: Sculpture
+layout: artwork
 ---
+
 
