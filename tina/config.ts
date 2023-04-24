@@ -272,6 +272,7 @@ export default defineConfig({
         label: "Artwork",
         name: "artwork",
         path: "_artwork",
+        defaultItem: () => { return { layout: "artwork" }},
         match: {
           include: "**/*",
         },
