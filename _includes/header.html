@@ -15,20 +15,23 @@
                 </li>
               {% endfor %}
             </ul>
+          {% elsif item.name == "Portfolio" %}
+            {% assign active_arttype = site.arttype | where:"url", page.url %}
+            <span>
+              <a href="{{ item.link }}" class="navbar__link {% if page.url == item.link %} navbar__link--active{% endif %}">{{ item.name }}</a>
+              {% if active_arttype.size > 0 %} > <span class="navbar__link navbar__link--active">{{ active_arttype.first.title }}</span> {% endif %}
+            </span>
+            <ul class="navbar__dropdown">
+              {% for arttype in site.arttype %}
+                <li class="navbar__dropdownitem">
+                  <a href="{{ arttype.url }}" class="navbar__link {% if page.url == arttype.url %}navbar__link--active{% endif %}">{{ arttype.title }}</a>
+                </li>
+              {% endfor %}
+            </ul>
           {% else %}
-            <a href="{{ item.link }}" class="navbar__link{% if page.url == item.link %} navbar__link--active{% endif %}">{{ item.name }}</a>
-            {% assign dropdown = site.artwork | where:"type", item.name | sort: "date" | reverse %}
-            {% assign dropdown_size = dropdown | size %}
-            {% if dropdown_size > 0 %}
-              {% assign active_art = dropdown | where:"url", page.url | size %}
-              <ul class="navbar__dropdown{% if active_art > 0 %} navbar__dropdown--active {% endif %}">
-                {% for artwork in dropdown %}
-                  <li class="navbar__dropdownitem">
-                    <a href="{{ artwork.url }}" class="navbar__link {% if page.url == artwork.url %}navbar__link--active{% endif %}">{{ artwork.title }} ({{ artwork.year }})</a>
-                  </li>
-                {% endfor %}
-              </ul>
-            {% endif %}
+            <a href="{{ item.link }}" class="navbar__link{% if page.url == item.link %} navbar__link--active{% endif %}">
+              {{ item.name }}
+            </a>
           {% endif %}
         </li>
       {% endfor %}

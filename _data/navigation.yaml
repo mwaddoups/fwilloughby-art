@@ -6,11 +6,7 @@
       link: /artiststatement.html
     - name: CV
       link: /cv.html
-- name: Installation
-  link: /installation.html
-- name: Sculpture
-  link: /sculpture.html
-- name: Collage
-  link: /collage.html
+- name: Portfolio
+  link: /portfolio.html
 - name: Contact
   link: /contact.html

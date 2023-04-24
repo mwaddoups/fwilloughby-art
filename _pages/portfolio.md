@@ -1,8 +1,7 @@
 ---
 layout: arttype
-title: Photography
+title: Portfolio
 headerimage: play-along-1.jpg
-published: false
+permalink: /portfolio.html
 _template: artheader
-permalink: /photography.html
 ---

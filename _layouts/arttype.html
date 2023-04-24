@@ -5,7 +5,7 @@ layout: default
 <div class="art-list">
 {% assign sorted = site.artwork | sort: "date" | reverse %}
 {% for artwork in sorted %}
-  {% if artwork.type == page.title %}
+  {% if artwork.type == page.title or page.title == "Portfolio" %}
     <a href="{{ artwork.url }}">
       <figure class="art-list__figure">
         {% responsive_image_block %}
@@ -13,7 +13,7 @@ layout: default
           class: "art-list__image"
           sizes: "(min-width: 700px) 33vw, 100vw"
         {% endresponsive_image_block %}
-        <figcaption class="art-list__caption">{{ artwork.title }}</figcaption>
+        <figcaption class="art-list__caption">{{ artwork.title }} ({{ artwork.year }})</figcaption>
       </figure>
     </a> 
   {% endif %}
