@@ -9,5 +9,7 @@ date: 2023-01-09T00:00:00.000Z
 type: Installation
 media_type: projection installation
 dimensions: 150 x 110 x 62cm
+layout: artwork
 ---
+
 
