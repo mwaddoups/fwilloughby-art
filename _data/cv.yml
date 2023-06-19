@@ -12,214 +12,214 @@ work:
     job_title: Assistant
 solo_exhibitions:
   - year: 2023
-    date: '2023-01-23T00:00:00.000Z'
+    date: 2023-01-23T00:00:00.000Z
     title: Dream House
-    place: Centrespace Gallery
+    place: 'Centrespace Gallery, Bristol, UK.'
   - year: 2022
-    date: '2022-04-01T23:00:00.000Z'
+    date: 2022-04-01T23:00:00.000Z
     title: The Sky Which Is Beyond
     place: 'CURIO, Bristol, UK.'
   - year: 2021
-    date: '2021-12-04T00:00:00.000Z'
+    date: 2021-12-04T00:00:00.000Z
     title: Memories Go Astray
     place: 'TOD Gallery, Kent, UK.'
   - year: 2019
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     title: When Things Fall Apart
     place: 'Helmut Gallery, Leipzig, Germany.'
   - year: 2017
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     title: Showroom 1600
     place: 'Arts University Bournemouth, UK.'
 group_exhibitions:
   - year: 2022
-    date: '2022-03-06T00:00:00.000Z'
+    date: 2022-03-06T00:00:00.000Z
     title: Alone/Together
     place: 'The Station, Bristol, UK.'
   - year: 2021
-    date: '2021-12-01T00:00:00.000Z'
+    date: 2021-12-01T00:00:00.000Z
     title: Reignite Festival
     place: 'The Island, Bristol, UK.'
   - year: 2021
-    date: '2021-08-30T23:00:00.000Z'
+    date: 2021-08-30T23:00:00.000Z
     title: The Absurd
     place: 'Fubar Collective, The Crypt, London, UK.'
   - year: 2021
-    date: '2021-09-29T23:00:00.000Z'
+    date: 2021-09-29T23:00:00.000Z
     title: Text Me When You Get Home
     place: 'The Impulse Movement, Oxfordshire, UK.'
   - year: 2021
-    date: '2021-07-25T23:00:00.000Z'
+    date: 2021-07-25T23:00:00.000Z
     title: 'Co.Curation: Distanced Domestic'
     place: 'MKII (Formerly The Old Dairy), London, UK.'
   - year: 2021
-    date: '2021-06-30T23:00:00.000Z'
+    date: 2021-06-30T23:00:00.000Z
     title: Threshold
     place: 'D Contemporary, London, UK.'
   - year: 2021
-    date: '2021-06-26T23:00:00.000Z'
+    date: 2021-06-26T23:00:00.000Z
     title: The Playful Turn
     place: 'Espacio Gallery, London, UK.'
   - year: 2021
-    date: '2021-03-31T23:00:00.000Z'
+    date: 2021-03-31T23:00:00.000Z
     title: Saturation
     place: 'Cultivate, Online Exhibition.'
   - year: 2021
-    date: '2021-05-31T23:00:00.000Z'
+    date: 2021-05-31T23:00:00.000Z
     title: Art as a Response to Mental Health
     place: 'Doncaster Art Fair, Online Exhibition.'
   - year: 2020
-    date: '2020-11-01T00:00:00.000Z'
+    date: 2020-11-01T00:00:00.000Z
     title: WHY?
     place: 'Cultivate Gallery, London, UK. '
   - year: 2020
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     title: Assemblage
     place: 'Fringe Arts Bath Festival, Bath, UK.'
   - year: 2020
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     title: REALLY//REAL
     place: 'Fringe Arts Bath, Bath, UK. ​'
   - year: 2019
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     title: ' CurAte'
     place: 'Les Fetes Galantes, London, UK.'
   - year: 2019
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     title: 167 Annual Open Exhibition
     place: 'Royal West of England Academy (RWA), Bristol, UK.'
   - year: 2019
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     title: 'The Contraband Collection: Bristol Edition'
     place: 'The Latch, Bristol, UK.'
   - year: 2019
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     title: Art Meets Play
     place: 'Thought Foundation, Gateshead, UK.'
   - year: 2019
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     title: Eye of the Lens
     place: 'Unit 6 Studio & Gallery, North Yorkshire, UK.'
   - year: 2019
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     title: 36 Exposures
     place: 'Fringe Arts Bath Festival, Bath, UK.'
   - year: 2018
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     title: Red Room Experience
     place: 'The Bristol Improv Theatre Bar, Bristol, UK.'
   - year: 2018
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     title: 5ft Tall Capsule Vending Machine
     place: VANDEL/. UK.
   - year: 2018
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     title: Chapter 1
     place: 'The Old Biscuit Factory, London, UK.'
   - year: 2018
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     title: FBA Futures
     place: 'Mall Galleries, 17 Carlton House Terrace, London, UK.'
   - year: 2017
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     title: The V. Serious Art Show at Free Range
     place: 'The Truman Brewery, London, UK.'
   - year: 2017
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     title: The V. Serious Art Show
     place: 'Northlight Studios, Bournemouth, UK.'
   - year: 2016
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     title: Unbound
     place: 'Espacio Gallery, London, UK.'
   - year: 2016
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     title: 467 Characters Long
     place: 'BUMF, Bournemouth, UK.'
   - year: 2016
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     title: Glenside Hospital Museum
     place: 'Bristol, UK.'
   - year: 2016
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     title: Dada Lives!
     place: >-
       The University of Cincinnati’s Blue Ash Art Gallery, Cincinnati, Ohio,
       United States.
   - year: 2016
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     title: 'SÉANCE : A Family Collection Revisited'
     place: 'Russell Cotes Museum and Gallery, Dorset, UK.'
 curatorial_projects:
   - year: 2021
-    date: '2021-08-31T23:00:00.000Z'
+    date: 2021-08-31T23:00:00.000Z
     title: 'Co-, Studio Based Creative Development Project.'
     place: 'St Anne’s House, Bristol, UK.'
   - year: 2019
-    date: '2019-02-01T00:00:00.000Z'
+    date: 2019-02-01T00:00:00.000Z
     title: 'Artist Residency, Helmut Gallery'
     place: 'Leipzig, Germany.'
   - year: 2016
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     title: 'SÉANCE : A Family Collection Revisited'
     place: 'Russell Cotes Museum and Gallery, Dorset, UK.'
 publications:
   - year: 2021
-    date: '2021-12-08T00:00:00.000Z'
+    date: 2021-12-08T00:00:00.000Z
     details: >-
       Artful Memories: How to create unique art with old photographs, Jane Chipp
       and Jack Ravi, (2021), December
   - year: 2021
-    date: '2021-05-31T23:00:00.000Z'
+    date: 2021-05-31T23:00:00.000Z
     details: 'Superpresent (2021), June. Texas, USA'
   - year: 2021
-    date: '2021-05-31T23:00:00.000Z'
+    date: 2021-05-31T23:00:00.000Z
     details: 'The Working Artist: V, (2021), June'
   - year: 2020
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     details: 'Haus-a-rest Zine, Issue 7 - The Mental health issue, (2021), November'
   - year: 2020
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     details: 'Penny Thoughts, (2020), November'
   - year: 2020
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     details: 'Average Art, (2020), February'
   - year: 2019
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     details: 'Art Reveal Magazine, (2019), December'
   - year: 2017
-    date: '1970-01-01T00:00:00.000Z'
+    date: 1970-01-01T00:00:00.000Z
     details: 'Wotisart? #9, (2017), December'
 prizes:
   - prize_title: ''
     date: ''
 artist_residencies:
   - year: 2021
-    date: '2021-11-02T00:00:00.000Z'
+    date: 2021-11-02T00:00:00.000Z
     title: Artist Residency
     place: 'Hawkwood, Stroud, UK.'
   - year: 2021
-    date: '2021-08-31T23:00:00.000Z'
+    date: 2021-08-31T23:00:00.000Z
     title: Co-Studio Based Creative Development Project
     place: 'St Anne’s House, Bristol, UK.'
   - year: 2019
-    date: '2019-02-01T00:00:00.000Z'
+    date: 2019-02-01T00:00:00.000Z
     title: Artist Residency
     place: 'Helmut Gallery, Leipzig, Germany.'
 awards:
   - year: 2021
-    date: '2021-11-02T00:00:00.000Z'
+    date: 2021-11-02T00:00:00.000Z
     title: Developing Your Creative Practice
     details: Arts Council England.
   - year: 2021
-    date: '2021-09-30T23:00:00.000Z'
+    date: 2021-09-30T23:00:00.000Z
     title: 'The Eaton Trust, Artist Bursary'
     details: ''
   - year: 2021
-    date: '2021-07-31T23:00:00.000Z'
+    date: 2021-07-31T23:00:00.000Z
     title: 'Francis W Reckitt Arts Trust, Residency Funding'
     details: ''
   - year: 2021
-    date: '2021-09-29T23:00:00.000Z'
+    date: 2021-09-29T23:00:00.000Z
     title: 'The Gane Trust, Artist Bursary'
     details: ''
