@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Artist Statement
-image: /assets/images/frances-portrait.jpg
+image: /assets/images/IMG_0850.jpg
 permalink: /artiststatement.html
 _template: artist_statement
 ---
