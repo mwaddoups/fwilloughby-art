@@ -10,7 +10,24 @@ work:
   - dates: 2018 - 2020
     workplace: 'Ginkgo Projects, Bristol UK.'
     job_title: Assistant
+artist_residencies:
+  - year: 2021
+    date: 2021-11-02T00:00:00.000Z
+    title: Artist Residency
+    place: 'Hawkwood, Stroud, UK.'
+  - year: 2021
+    date: 2021-08-31T23:00:00.000Z
+    title: Co-Studio Based Creative Development Project
+    place: 'St Anne’s House, Bristol, UK.'
+  - year: 2019
+    date: 2019-02-01T00:00:00.000Z
+    title: Artist Residency
+    place: 'Helmut Gallery, Leipzig, Germany.'
 solo_exhibitions:
+  - year: 2023
+    date: 2023-11-15T00:00:00.000Z
+    title: Telling Tales
+    place: 'Athens, Greece'
   - year: 2023
     date: 2023-01-23T00:00:00.000Z
     title: Dream House
@@ -154,19 +171,6 @@ group_exhibitions:
     date: 1970-01-01T00:00:00.000Z
     title: 'SÉANCE : A Family Collection Revisited'
     place: 'Russell Cotes Museum and Gallery, Dorset, UK.'
-curatorial_projects:
-  - year: 2021
-    date: 2021-08-31T23:00:00.000Z
-    title: 'Co-, Studio Based Creative Development Project.'
-    place: 'St Anne’s House, Bristol, UK.'
-  - year: 2019
-    date: 2019-02-01T00:00:00.000Z
-    title: 'Artist Residency, Helmut Gallery'
-    place: 'Leipzig, Germany.'
-  - year: 2016
-    date: 1970-01-01T00:00:00.000Z
-    title: 'SÉANCE : A Family Collection Revisited'
-    place: 'Russell Cotes Museum and Gallery, Dorset, UK.'
 publications:
   - year: 2021
     date: 2021-12-08T00:00:00.000Z
@@ -194,22 +198,19 @@ publications:
   - year: 2017
     date: 1970-01-01T00:00:00.000Z
     details: 'Wotisart? #9, (2017), December'
-prizes:
-  - prize_title: ''
-    date: ''
-artist_residencies:
-  - year: 2021
-    date: 2021-11-02T00:00:00.000Z
-    title: Artist Residency
-    place: 'Hawkwood, Stroud, UK.'
+curatorial_projects:
   - year: 2021
     date: 2021-08-31T23:00:00.000Z
-    title: Co-Studio Based Creative Development Project
+    title: 'Co-, Studio Based Creative Development Project.'
     place: 'St Anne’s House, Bristol, UK.'
   - year: 2019
     date: 2019-02-01T00:00:00.000Z
-    title: Artist Residency
-    place: 'Helmut Gallery, Leipzig, Germany.'
+    title: 'Artist Residency, Helmut Gallery'
+    place: 'Leipzig, Germany.'
+  - year: 2016
+    date: 1970-01-01T00:00:00.000Z
+    title: 'SÉANCE : A Family Collection Revisited'
+    place: 'Russell Cotes Museum and Gallery, Dorset, UK.'
 awards:
   - year: 2023
     date: 2023-04-30T23:00:00.000Z
