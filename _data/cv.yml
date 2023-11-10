@@ -213,6 +213,9 @@ curatorial_projects:
     place: 'Russell Cotes Museum and Gallery, Dorset, UK.'
 awards:
   - year: 2023
+    date: 2023-08-07T23:00:00.000Z
+    title: a-n Artist Bursary
+  - year: 2023
     date: 2023-04-30T23:00:00.000Z
     title: Research and Development Bursary
     details: West of England Visual Arts Alliance (WEEVA).
