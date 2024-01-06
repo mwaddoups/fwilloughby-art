@@ -1,4 +1,5 @@
 ---
+permalink: /
 layout: landing
 title: Home
 images:
@@ -7,8 +8,7 @@ images:
   - /assets/images/play-along-2.jpg
   - /assets/images/escaping-the-pull-3.jpg
   - /assets/images/woman-house-2-jpeg.jpg
-  - /assets/images/frances-willoughby_the-failure-of-pretence-4.jpg
+  - /assets/images/F Willoughby My Grandfather was a Bear 2.jpg
 _template: frontpage
-permalink: /
 ---
 
