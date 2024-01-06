@@ -9,7 +9,7 @@ images:
 year: 2023
 date: 2023-11-01T00:00:00.000Z
 type: Installation
-media_type: 'fabric, stuffing, fimo, beads, paper mache and leaves'
+media_type: 'fabric, stuffing, fimo, beads, bone, paper mache and leaves'
 exhibition: 'Installation view at The Phoenix Gallery, Athens.'
 layout: artwork
 ---
