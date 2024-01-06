@@ -11,6 +11,10 @@ work:
     workplace: 'Ginkgo Projects, Bristol UK.'
     job_title: Assistant
 artist_residencies:
+  - year: 2023
+    date: 2023-11-01T00:00:00.000Z
+    title: Artist Residency
+    place: 'The Phoenix Gallery, Athens'
   - year: 2021
     date: 2021-11-02T00:00:00.000Z
     title: Artist Residency
