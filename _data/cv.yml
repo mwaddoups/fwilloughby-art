@@ -53,14 +53,14 @@ solo_exhibitions:
     title: Showroom 1600
     place: 'Arts University Bournemouth, UK.'
 group_exhibitions:
-  - year: 2022
-    date: 2022-10-03T23:00:00.000Z
-    title: 'Glitch, Fringe Arts Bath'
-    place: '44AD Artspace, Bath, UK.'
   - year: 2023
     date: 2023-05-31T23:00:00.000Z
     title: Glasgow International Photo Competition
     place: 'Sogo Arts Gallery, Glasgow, UK.'
+  - year: 2022
+    date: 2022-10-03T23:00:00.000Z
+    title: 'Glitch, Fringe Arts Bath'
+    place: '44AD Artspace, Bath, UK.'
   - year: 2022
     date: 2022-03-06T00:00:00.000Z
     title: Alone/Together
