@@ -10,7 +10,7 @@ year: 2023
 date: 2023-11-01T00:00:00.000Z
 type: Installation
 media_type: 'faux fur, fimo, beads, bone and paper mache'
-exhibition: 'Installation view at The Phoenix Gallery, Athens.'
+exhibition: 'Installation view at Telling Tale, The Phoenix Gallery, Athens.'
 layout: artwork
 ---
 
