@@ -8,7 +8,7 @@ year: 2023
 date: 2023-10-10T23:00:00.000Z
 type: Installation
 media_type: projection installation
-exhibition: 'Installation view at The Phoenix Gallery, Athens.'
+exhibition: 'Installation view at Telling Tales, The Phoenix Gallery, Athens.'
 layout: artwork
 ---
 
