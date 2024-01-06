@@ -7,7 +7,7 @@ images:
 year: 2023
 date: 2023-10-10T23:00:00.000Z
 type: Installation
-media_type: 'projection onto found chairs, sewing pins and hand mirror '
+media_type: projection installation
 exhibition: 'Installation view at The Phoenix Gallery, Athens.'
 layout: artwork
 ---
