@@ -10,6 +10,12 @@ year: 2023
 date: 2023-11-01T00:00:00.000Z
 type: Installation
 media_type: 'faux fur, fimo, beads, bone and paper mache'
+description: >-
+  My Grandfather Was a Bear (2023) is a sculpture which sits prominently at the
+  centre of the Telling Tales. Emerging from the bear's jaws is a cast of her
+  grandfather's head, weaving a powerful narrative of familial connections. This
+  evocative piece seamlessly merges the ancestral and the animalistic, inviting
+  contemplation on identity, myth, and the enduring legacy of family.
 exhibition: 'Installation view at Telling Tale, The Phoenix Gallery, Athens.'
 layout: artwork
 ---
