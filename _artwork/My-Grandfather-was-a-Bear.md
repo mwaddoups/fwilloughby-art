@@ -16,7 +16,7 @@ description: >-
   grandfather's head, weaving a powerful narrative of familial connections. This
   evocative piece seamlessly merges the ancestral and the animalistic, inviting
   contemplation on identity, myth, and the enduring legacy of family.
-exhibition: 'Installation view at Telling Tale, The Phoenix Gallery, Athens.'
+exhibition: 'Installation view at Telling Tales, The Phoenix Gallery, Athens.'
 layout: artwork
 ---
 
