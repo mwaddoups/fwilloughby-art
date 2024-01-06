@@ -1,8 +1,8 @@
 ---
 layout: default
+permalink: /artiststatement.html
 title: Artist Statement
 image: /assets/images/IMG_0865.jpg
-permalink: /artiststatement.html
 _template: artist_statement
 ---
 
@@ -20,8 +20,6 @@ Her soft sculptures act as an intimate record not only of her memory, but also o
 
 Protruding from the floor, hanging from the ceiling or fixed on the wall the body is presented here in a state of continuous metamorphosis. Rupture, 2017 portrays a double female body in a traumatic state. Stuffed with fabric it’s position is awkward. Despite the heightened phycological tension of the work, there is a sense of control and balance, hovering in a position between extreme tension and relaxation. In works like Bad Breast, 2019 Willoughby introduces items of the real world, such as pins and needles, for expressive effect. In sexually charged and provocatively explicit images, we witness female breasts pierced with acupuncture needles. There is a psychological symbolism of needles and their magic power at play here: that of repairing damage, of healing.
 
-From her exquisite sculptures to her grandmother’s tapestries of recent days, the last body of work reveals Willoughby’s preoccupation with fabric as a material for work in two and three dimensions, giving her work another layer of personal meaning. Her creations show a vocabulary of evolution,
-
-metamorphosis and indeterminacy. The restorative power of the needle and the act of sewing renders visible the human body's experiences of pleasure, pain, trauma, and inevitable decay. The act of physically doing and undoing the stitches becomes a method of healing from personal trauma and a ritual to navigate the purpose of the work itself. The self and other are constantly re-envisioned through the prism of the imagination. Ultimately, Willoughby’s works become environments where everyone can change and be transformed; a self in a continuous state of metamorphosis, set free, brimming with possibilities.
+From her exquisite sculptures to her grandmother’s tapestries of recent days, the last body of work reveals Willoughby’s preoccupation with fabric as a material for work in two and three dimensions, giving her work another layer of personal meaning. Her creations show a vocabulary of evolution, metamorphosis and indeterminacy. The restorative power of the needle and the act of sewing renders visible the human body's experiences of pleasure, pain, trauma, and inevitable decay. The act of physically doing and undoing the stitches becomes a method of healing from personal trauma and a ritual to navigate the purpose of the work itself. The self and other are constantly re-envisioned through the prism of the imagination. Ultimately, Willoughby’s works become environments where everyone can change and be transformed; a self in a continuous state of metamorphosis, set free, brimming with possibilities.
 
 Alkistis Tsampouraki (2023)
