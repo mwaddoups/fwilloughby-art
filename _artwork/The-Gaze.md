@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: The Gaze
 image: /assets/images/Frances_Willoughby_The Gaze 3.jpg
 images:
