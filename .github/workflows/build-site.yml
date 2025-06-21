@@ -14,7 +14,7 @@ jobs:
       - name: Install node, ensure npx uses a cache
         uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: '22'
           cache: 'npm'
           cache-dependency-path: '**/.github/workflows/*.yml'
       - name: Install Tina dependences
@@ -30,7 +30,7 @@ jobs:
           bundler-cache: true
       - run: bundle exec jekyll build
       - name: Publish
-        uses: netlify/actions/cli@375963b92b795c7b979927c580dd6f2a65ebcf28
+        uses: netlify/actions/cli@master
         with:
           args: deploy --dir=_site --prod
         env:
