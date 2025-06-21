@@ -30,7 +30,7 @@ jobs:
           bundler-cache: true
       - run: bundle exec jekyll build
       - name: Publish
-        uses: netlify/actions/cli@master
+        uses: netlify/actions/cli@375963b92b795c7b979927c580dd6f2a65ebcf28
         with:
           args: deploy --dir=_site --prod
         env:
