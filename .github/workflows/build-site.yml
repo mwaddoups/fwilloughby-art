@@ -30,9 +30,7 @@ jobs:
           bundler-cache: true
       - run: bundle exec jekyll build
       - name: Publish with netlify
-        run: 
-          - npm install -g netlify-cli@20.1.1
-          - netlify deploy --dir=_site --prod
+        run: npm install -g netlify-cli@20.1.1 && netlify deploy --dir=_site --prod
         env:
           NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
           NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
