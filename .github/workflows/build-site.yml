@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     name: Build with jekyll and deploy to netlify
     steps:
       - uses: actions/checkout@v3
@@ -27,7 +27,7 @@ jobs:
       - uses: ruby/setup-ruby@v1
         with:
           ruby-version: '2.6'
-          bundler-cache: false
+          bundler-cache: true
       - run: bundle exec jekyll build
       - name: Publish
         uses: netlify/actions/cli@master
