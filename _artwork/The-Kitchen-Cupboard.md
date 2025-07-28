@@ -14,8 +14,8 @@ date: 2022-11-30T00:00:00.000Z
 type: Photography
 media_type: photograph
 description: >-
-  "The Kitchen Cupboard" was selected for The Gallery Season 4, produced by
-  Artichoke Trust.
+  "The Kitchen Cupboard" was selected for The Gallery Season 4: A Real Woman,
+  produced by Artichoke Trust.
 
 
   Titled "The Kitchen Cupboard," this black-and-white photograph captures a
