@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: Why do Bad Things Happen to Good People?
 image: /assets/images/F Willoughby Why do bad things happen to good people.jpg
 images:
