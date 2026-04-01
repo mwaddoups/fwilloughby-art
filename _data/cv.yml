@@ -172,9 +172,7 @@ group_exhibitions:
   - year: 2016
     date: 1970-01-01T00:00:00.000Z
     title: Dada Lives!
-    place: >-
-      The University of Cincinnati’s Blue Ash Art Gallery, Cincinnati, Ohio,
-      United States.
+    place: 'The University of Cincinnati’s Blue Ash Art Gallery, Cincinnati, Ohio, United States.'
   - year: 2016
     date: 1970-01-01T00:00:00.000Z
     title: 'SÉANCE : A Family Collection Revisited'
@@ -182,17 +180,13 @@ group_exhibitions:
 publications:
   - year: 2023
     date: 2023-08-31T23:00:00.000Z
-    details: >-
-      Presence: Performance and the Self Portrait, Aldobranti Fosco-Fornio,
-      (2023), September
+    details: 'Presence: Performance and the Self Portrait, Aldobranti Fosco-Fornio, (2023), September'
   - year: 2022
     date: 2022-12-01T00:00:00.000Z
     details: 'soft core, Rebecca Orr, (2022), December'
   - year: 2021
     date: 2021-12-08T00:00:00.000Z
-    details: >-
-      Artful Memories: How to create unique art with old photographs, Jane Chipp
-      and Jack Ravi, (2021), December
+    details: 'Artful Memories: How to create unique art with old photographs, Jane Chipp and Jack Ravi, (2021), December'
   - year: 2021
     date: 2021-09-30T23:00:00.000Z
     details: 'Forget Me Not Press #1 (2021), October.'
@@ -231,6 +225,10 @@ curatorial_projects:
     title: 'SÉANCE : A Family Collection Revisited'
     place: 'Russell Cotes Museum and Gallery, Dorset, UK.'
 awards:
+  - year: 2024
+    date: 2024-01-01T00:00:00.000Z
+    title: Macfarlanes Art Prize
+    details: (nominated).
   - year: 2023
     date: 2023-08-07T23:00:00.000Z
     title: Artist Bursary
