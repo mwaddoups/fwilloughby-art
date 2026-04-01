@@ -75,8 +75,8 @@ group_exhibitions:
     place: 'Bath, UK.'
   - year: 2024
     date: 2024-03-01T00:00:00.000Z
-    title: 'Macfarlanes Art Prize, Macfarlanes'
-    place: 'London , UK.'
+    title: Macfarlanes Art Prize
+    place: 'Macfarlanes, London , UK.'
   - year: 2023
     date: 2023-05-31T23:00:00.000Z
     title: Glasgow International Photo Competition
