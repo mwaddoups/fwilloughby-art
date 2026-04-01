@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 title: From the Belly of the Beast
 image: /assets/images/From the Belly of the Beast JPEG.jpg
 year: 2023
