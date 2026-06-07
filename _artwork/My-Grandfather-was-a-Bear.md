@@ -6,7 +6,7 @@ images:
   - /assets/images/F Willoughby Telling Tales exibit view 1.jpg
   - /assets/images/DSCF4969.jpg
   - /assets/images/DSCF4968.jpg
-year: 2023
+year: 2024
 date: 2024-11-01T00:00:00.000Z
 type: Installation
 media_type: 'faux fur, fimo, beads, bone and paper mache'
