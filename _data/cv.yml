@@ -58,6 +58,10 @@ solo_exhibitions:
     place: 'Arts University Bournemouth, UK.'
 group_exhibitions:
   - year: 2026
+    date: 2026-08-31T23:00:00.000Z
+    title: RWA 173rd Annual Open Exhibition
+    place: 'Bristol, UK.'
+  - year: 2026
     date: 2026-03-31T23:00:00.000Z
     title: KINETIC
     place: 'MAKE Southwest, Devon, UK.'
