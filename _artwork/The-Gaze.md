@@ -9,16 +9,25 @@ year: 2025
 date: 2025-06-19T23:00:00.000Z
 type: Sculpture
 media_type: 'aluminium print, reclaimed drum hoop and steel'
-description: >-
-  The Gaze is an interactive sculpture centring around a large photograph of my
-  eye. One side is open, the other closed; a handle invites viewers to spin the
-  structure, creating a blinking effect. This work explores the illusion of
-  linear time, referencing the cyclical motions of clocks, planets, and
-  processing algorithms. The blinking eye, both observer and observed, evokes
-  questions around surveillance, agency, and the politics of the gaze—especially
-  through a feminist lens. It asks: How do we perceive time? Who controls what
-  we see? And how do we reclaim vision in a world increasingly mediated by
-  technology?
+description: |
+  The Gaze is an interactive sculpture centring around a large photograph of my eye. One side is open, the other closed; a handle invites viewers to spin the structure, creating a blinking effect. This work explores the illusion of linear time, referencing the cyclical motions of clocks, planets, and processing algorithms. The blinking eye, both observer and observed, evokes questions around surveillance, agency, and the politics of the gaze—especially through a feminist lens. It asks: How do we perceive time? Who controls what we see? And how do we reclaim vision in a world increasingly mediated by technology?
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "VisualArtwork",
+    "name": "{{ page.title }}",
+    "creator": {
+      "@type": "Person",
+      "name": "Frances Willoughby"
+    },
+    "artform": "installation",
+    "artMedium": "{{ page.medium }}",
+    "description": "{{ page.description | strip_html }}",
+    "image": "https://www.franceswilloughby.com{{ page.image }}",
+    "url": "https://www.franceswilloughby.com{{ page.url }}"
+  }
+  </script>
 dimensions: 58 x 38 x 33 cm
 layout: artwork
 ---
