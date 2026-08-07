@@ -23,3 +23,41 @@ Protruding from the floor, hanging from the ceiling or fixed on the wall the bod
 From her exquisite sculptures to her grandmother’s tapestries of recent days, the last body of work reveals Willoughby’s preoccupation with fabric as a material for work in two and three dimensions, giving her work another layer of personal meaning. Her creations show a vocabulary of evolution, metamorphosis and indeterminacy. The restorative power of the needle and the act of sewing renders visible the human body's experiences of pleasure, pain, trauma, and inevitable decay. The act of physically doing and undoing the stitches becomes a method of healing from personal trauma and a ritual to navigate the purpose of the work itself. The self and other are constantly re-envisioned through the prism of the imagination. Ultimately, Willoughby’s works become environments where everyone can change and be transformed; a self in a continuous state of metamorphosis, set free, brimming with possibilities.
 
 Alkistis Tsampouraki (2023)
+
+\<script type="application/ld+json">
+
+{
+
+  "@context": "https\://schema.org",
+
+  "@type": "Person",
+
+  "name": "Frances Willoughby",
+
+  "jobTitle": "Multidisciplinary Artist",
+
+  "url": "https\://www\.franceswilloughby.com",
+
+  "image": "https\://www\.franceswilloughby.com/path-to-your-profile-image.jpg",
+
+  "address": {
+
+    "@type": "PostalAddress",
+
+    "addressLocality": "Bristol",
+
+    "addressCountry": "UK"
+
+  },
+
+  "sameAs": \[
+
+    "https\://www\.instagram.com/franceswilloughby",
+
+    "https\://www\.axisweb.org/p/franceswilloughby"
+
+  ]
+
+}
+
+\</script>
